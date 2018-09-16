@@ -9,6 +9,8 @@ A library of conveniences for working with Swift strings and NSAttributed string
 
 ## Requirements
 
+Swift 4.2
+
 ## Installation
 
 WolfStrings is available through [CocoaPods](https://cocoapods.org). To install
