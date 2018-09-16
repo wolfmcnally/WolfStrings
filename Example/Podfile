@@ -1,0 +1,15 @@
+use_frameworks!
+
+platform :ios, '12.0'
+
+pod 'WolfPipe', :path => '../../WolfPipe'
+pod 'WolfNumerics', :path => '../../WolfNumerics'
+pod 'ExtensibleEnumeratedName', :path => '../../ExtensibleEnumeratedName'
+
+target 'WolfStrings_Example' do
+  pod 'WolfStrings', :path => '../'
+
+  target 'WolfStrings_Tests' do
+    inherit! :search_paths
+  end
+end

@@ -1,0 +1,6 @@
+framework module Pods_WolfStrings_Example {
+  umbrella header "Pods-WolfStrings_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
