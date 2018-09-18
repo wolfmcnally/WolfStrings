@@ -7,61 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		094A37DD4638B688C1591D92660AAC26 /* AttributedSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02D8ACD9B2A3AFC98A0B4E2A98FD727 /* AttributedSubstring.swift */; };
-		0CA29A533132485B8BA4A9CA54C49C39 /* WolfPipe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0258BBCBB23A9BA741A398471FC818D2 /* WolfPipe-dummy.m */; };
-		0CDFB61AA6544C34580D113EA6679E03 /* AttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CCD1959926BFF41C2E794EA1551193 /* AttributedString.swift */; };
+		012B5D5063C34331D66D2B52EC489762 /* StringIndexesAndRanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38BF41238EF78BB5939C8105CA2EDFB /* StringIndexesAndRanges.swift */; };
+		03DCCA608B99291E6058F4B8C9AE157C /* RegularExpressionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86099B449C6CB6A3AB76BFEE048279F /* RegularExpressionExtensions.swift */; };
+		0AD9CC4B1911DA1BE9176ABEC0207EBA /* Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = A430D79138C2D54CE322031DB87CC270 /* Interval.swift */; };
+		0CA29A533132485B8BA4A9CA54C49C39 /* WolfPipe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D94EF4AC95C2D069F1DE95C238171A8D /* WolfPipe-dummy.m */; };
+		0E9150ED39FAF4B93AEB0D8B502C2D48 /* MatchRegularExpressionOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80019B0A5849E0A2E181E724F2468E7A /* MatchRegularExpressionOperator.swift */; };
+		1165BC45537B28ED78C08361BF333A12 /* ObjectAliaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F586A5ACEED824AE17DA71F9875B1224 /* ObjectAliaser.swift */; };
 		124A62D7979B2431C9B7887C810C4219 /* Pods-WolfStrings_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F4944281984CBD286BE7587B4DC6EB7 /* Pods-WolfStrings_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB6EEDC3067F8A733D9290FE0486221 /* RunningAverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F6F34A32CA4E83889E89318A46B66D /* RunningAverage.swift */; };
 		1DF510EB69EBD1E087A76FB238DE91AC /* Pods-WolfStrings_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B35ABB963B6EA09810DEC8A98E616CE /* Pods-WolfStrings_Tests-dummy.m */; };
-		21AEC7978498EE17416C1DFF2A63C2D2 /* UTF8.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA02E41F780CE9822822B5A8EEA1901 /* UTF8.swift */; };
-		2533F0A3E039B71A6C3BA23D2C7DB2E9 /* AttributedSubstringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFF6F4C91D6C6E4A6DAA6F19380E0AA /* AttributedSubstringExtensions.swift */; };
 		3005201920504ABDAE303E67C5EC76AA /* Pods-WolfStrings_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC6F41945D59F8A323533F83D77A156 /* Pods-WolfStrings_Example-dummy.m */; };
 		354E78C292582A4EEF389DB1B0DF4280 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F0A8DF634A37E9C6E0B1247340D56C /* Foundation.framework */; };
-		36900FDA55864C8A1934BCF0B5720D47 /* PipeCompatibleFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A926A4394C4C48F7E4927EF4E8A4153F /* PipeCompatibleFunctions.swift */; };
-		4363C9825398589A8541C24E162F4E44 /* ExtensibleEnumeratedName-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D78BCC0F2CE84621191EF4CD225F17 /* ExtensibleEnumeratedName-dummy.m */; };
-		437160A5DC6E1AC19983200D0239A023 /* StringTransformations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7D6CA186402B326F6F6CB9660D026 /* StringTransformations.swift */; };
+		3567BA19A854FA25518208BC7EC3CE25 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9983FEE81AE3B8B9F4E226AD8AB7987 /* BinarySearch.swift */; };
+		36900FDA55864C8A1934BCF0B5720D47 /* PipeCompatibleFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABE577D4B39ED4861A55C9F5DF093B3 /* PipeCompatibleFunctions.swift */; };
+		3BF420A9A5560307E56AEDF50BF5A583 /* CreateRegularExpressionOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC8FBA174962EC256525C473C2E785B /* CreateRegularExpressionOperator.swift */; };
+		4363C9825398589A8541C24E162F4E44 /* ExtensibleEnumeratedName-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 648FA2D9680F035C032960112CFBDA39 /* ExtensibleEnumeratedName-dummy.m */; };
 		4AA2EC5FBC34562375BCA5FCA6F25CCA /* ExtensibleEnumeratedName.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AA9EFF608FD30565DA0733EDF5DB26 /* ExtensibleEnumeratedName.framework */; };
-		4D2207C945A0269601844F2DA2452914 /* MatchRegularExpressionOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA166F2F02E4F4C6162A0AB2F0C7F25E /* MatchRegularExpressionOperator.swift */; };
-		50CF5D32C395051D6587DB2F8EC5CF60 /* Interpolable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FCD80236DCEF751B0B7501526AFAEA /* Interpolable.swift */; };
+		4DEFF95473B9207CD5B156D28DA0449D /* AttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37787EF0B99E550171BCD1C20F42B9C3 /* AttributedString.swift */; };
+		5076BE7A57B0CEAE39EF6E69DF7D42EE /* TextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C5146E3B6454F104F411300CE9DB37 /* TextAlignment.swift */; };
+		548CFA8DC2FA7B1E8060E2CF1C014060 /* NumericUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617ACE8C3A70AE5B63C30FBD14D1298 /* NumericUtils.swift */; };
 		55BEE98BF4DD7C279AF4ED39BFC326F7 /* WolfPipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF25308B821D1DF8771B82F1F24348A4 /* WolfPipe.framework */; };
-		56138EFBC133BEC3EC1E134170030985 /* StringReplacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8303D8F1FAD68F3D263C47841F03A035 /* StringReplacement.swift */; };
-		5EDC0901905C453AE086F7F81A7C519B /* ObjectAliaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935524BA5A1209B4D0C6F6A89A81C4BB /* ObjectAliaser.swift */; };
-		5FD3647B2A8925FCDE31B56B0F98563B /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76B66449FF12999FD7D892CF319E49D /* StringExtensions.swift */; };
-		68A006396C6BA5FBF337A63F538A066F /* TextCheckingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F4C2004C00958EA5FB26C3AC0BE9B7 /* TextCheckingResult.swift */; };
-		6902582C52237D55932DACCD2A095DFA /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = C136EE7575106978634919C0B97957EA /* Random.swift */; };
-		6C4185244080C2CA8B5A8EE0D2033AA9 /* AttributedStringOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FC2E928BD14B0DF3F7A229D2172755 /* AttributedStringOperator.swift */; };
-		6C57CF143C47351EF5712A412FE4BB33 /* CreateRegularExpressionOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7BBE8A47D9F1E83646215675B0BCC5 /* CreateRegularExpressionOperator.swift */; };
+		65FD09638453FDD02311F6AD73A7ECE0 /* Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99A48A6FA786A90B1C9184E2865CE62 /* Hex.swift */; };
+		69EB2A3E70A8E279611CC2D594915496 /* WolfStringsError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B135A3F0D8275B77041923C0BA41B09A /* WolfStringsError.swift */; };
 		6DA5B5EAAE1863FD2AF39CBEAD8085CD /* WolfNumerics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBE5131B0C10237808D19EE6F147531 /* WolfNumerics.framework */; };
-		7579C0B3D3BED8DCBC37B7E9EA549C10 /* RegularExpressionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D68480120EEDEBBE2608CF0674DFB8C /* RegularExpressionExtensions.swift */; };
-		76B600AD36D01F57BA5B3447D0052265 /* TextCheckingResultExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE723AF7B2451CE206765C57CB26E57 /* TextCheckingResultExtensions.swift */; };
+		6DBE81A0700AFB3F7383778EFFE65824 /* AttributedStringOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93C47741394A7444C4D981368B35344 /* AttributedStringOperator.swift */; };
+		7AFA88682155DCF06A31E8C3520685DC /* RangeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72AA39DB617C0B1FC993FA608817E25 /* RangeExtensions.swift */; };
 		7B6C21B8817EC188EF646CD76CF39E12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F0A8DF634A37E9C6E0B1247340D56C /* Foundation.framework */; };
 		7DFB0E42BCD80E2139CC57D65670BC7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F0A8DF634A37E9C6E0B1247340D56C /* Foundation.framework */; };
 		7EAF538B4EC7D309D8EE91BD6886C42A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F0A8DF634A37E9C6E0B1247340D56C /* Foundation.framework */; };
-		807F9AF6CDF5D72198A01834FFC56796 /* StringFloatPrecision.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2EA54FB861BC7ED28418BA5A8F1297 /* StringFloatPrecision.swift */; };
-		81A2BE3BE2C79324A907446CEC76BFF8 /* RangeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643192F90C00F00AAF870B8A5415565E /* RangeExtensions.swift */; };
 		87D5468374A1D0DD7A4982B0215C2454 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F0A8DF634A37E9C6E0B1247340D56C /* Foundation.framework */; };
-		952A9D10F273D7334EB63DDF841E7AD1 /* NumericUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F43226173F79C7441BFC1687C50F7D9 /* NumericUtils.swift */; };
-		9CD4C2F6ED4F1361E86C45E0301ABB6A /* WolfPipe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20867F26E388788340C3174C31753381 /* WolfPipe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3C74A86044B811B846C6D195194C139 /* WolfStrings-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894F6A083D13FABD47F20019568C2262 /* WolfStrings-dummy.m */; };
-		AC1F226FD5F7D2E4EB1B6BA68425D057 /* Joiner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A607778125BD8EDAB018C274D56FE9D3 /* Joiner.swift */; };
+		8E859143E1F0839D33778269C7E15785 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97D35F9A216A8D462623FFDF4E0C5B /* StringExtensions.swift */; };
+		9504F6EEFE515F89C5ED100A77157286 /* Interpolable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CD186CDED71E01183E9F547960DBAD /* Interpolable.swift */; };
+		9941F18B4E2C37593A752E1BBA2C198E /* Lerp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB436810EEBAA5FC85181921102CFB8 /* Lerp.swift */; };
+		9C812268ED9E7C46140CEE51AFE2FCE7 /* AttributedSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC71C183952CAC5FB304CE2EAB1F6E66 /* AttributedSubstring.swift */; };
+		9CD4C2F6ED4F1361E86C45E0301ABB6A /* WolfPipe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5FEF6FBCD6530C6E9B977E1AAB0375 /* WolfPipe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EAFE0B9D2F4ECE14B82DE119FDD57C9 /* StringReplacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298556D395B0EC3BD12C1DB1E149DD38 /* StringReplacement.swift */; };
+		A492CA197AFCD9F347AE14268FBC3AC5 /* UTF8.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB270F9AD2E977853ABE28CCE9DCF72 /* UTF8.swift */; };
+		A5CFBA1F1646055E2B2BF37525951536 /* TextCheckingResultExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892A0F34378FE5894E29EB05F87C418A /* TextCheckingResultExtensions.swift */; };
+		A77FD52AA348BA0EAD1B320D2D7FB9B6 /* StringTransformations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CF6AF2BFE18E376CF706D5FCAA63A2 /* StringTransformations.swift */; };
+		ACC5D8448D93AAECD5D6C03D935D3FCF /* WolfNumerics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 846E52600F2571FB8990BC4C5EE93362 /* WolfNumerics-dummy.m */; };
+		AD72F5E4C290327BD5BB26DE1A715BEE /* AttributedStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E96AA34859BA624E39A96B1EEBE7571 /* AttributedStringExtensions.swift */; };
 		AEFA508ED5D8FEFB8A12FB20E7C5395D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F0A8DF634A37E9C6E0B1247340D56C /* Foundation.framework */; };
-		B00F001E27EC2B4EE08F16B5D804A8AC /* Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9A327DEFAA3D72C28BBC559BD245F /* Hex.swift */; };
-		B38B192BDAE3291A1C2E5F3B56D7B6ED /* WolfStringsError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7317BA4A6EB2991E06BCAD197F9B5322 /* WolfStringsError.swift */; };
-		B4F010593DDBE3C3D6903F00335C98D4 /* RunningAverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A965EA9C4815F91EAEB49C731DBCE5 /* RunningAverage.swift */; };
-		B867CD8E688DAA9E41A9BC6CCF873DD1 /* WolfStrings-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C370C88D0E64C81F71319F5E0E63B24E /* WolfStrings-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC37DC03DABAB9A97D32338B438C3C67 /* TextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA29E3639BD7A86FD37E5A1C9AC382C /* TextAlignment.swift */; };
-		BDC1492577E8D763EAD6F47153303B87 /* AttributedStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792B4F0591E02ED1D32063C49B2C43EA /* AttributedStringExtensions.swift */; };
-		C3B72BA0A85C97E5183F8131A1F42730 /* Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2ECEE8666B278E0A230755C105C90 /* Interval.swift */; };
-		C480B2CBB273801A648E7F7E8DC5155F /* PipeOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB2D823802D0ADCE05F7D92410A6CE6 /* PipeOperator.swift */; };
-		D53176F4976E151E0C43C3C364337C32 /* StringIndexesAndRanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F6B6C7CA188F96DA3C248129D375DD /* StringIndexesAndRanges.swift */; };
-		D7987642333D3246ECF2BC418EA5C02A /* WolfNumerics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 915D21D3C8CAE86EFE3B309FE4EF8759 /* WolfNumerics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B46118FC7FCD17D34E44F9ABBF7A508E /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD563DDE6D18853F662E3C596B3B30 /* Random.swift */; };
+		B867CD8E688DAA9E41A9BC6CCF873DD1 /* WolfStrings-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5C5001A6A9FF82B5F7823842B905AD8 /* WolfStrings-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B94911E81018411073E69259A0336FDD /* StringFloatPrecision.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23ED3E0FFEDB18A95AE6004DCFE2331 /* StringFloatPrecision.swift */; };
+		BF249B235EDB27A83D89415E65C70984 /* ApproximatelyEqualsOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171400E779CFCE9C68FDB19F382ABD14 /* ApproximatelyEqualsOperator.swift */; };
+		C3AA4C8F0D884DBD4502D26AC1A5D69C /* Frac.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DBAF13E723C21A4FE1327DDAE4E761 /* Frac.swift */; };
+		C480B2CBB273801A648E7F7E8DC5155F /* PipeOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055E34375C0876064C307E728EE0A38F /* PipeOperator.swift */; };
+		C4A7ADEFDF1417BF6B8FC487EE251D85 /* TextCheckingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B232EE6B99976469D035AC3A43EBD0D /* TextCheckingResult.swift */; };
+		CB0D17B5B8975E837D772019C514D10A /* PercentOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D332AF96C17F112ACABE1FB2C874F75 /* PercentOperator.swift */; };
+		D7987642333D3246ECF2BC418EA5C02A /* WolfNumerics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AFAB1DB4E0E6F87950D98DAE2FA747D /* WolfNumerics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0D5BB467A23CCD47287B15A18B56E07 /* Pods-WolfStrings_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D42A4083C6B9AA8C8169BF845FA26BE0 /* Pods-WolfStrings_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E736BC6BE72B31CCD36DADDB98C95079 /* ExtensibleEnumeratedName-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6400C1AB24DE010A7E5271AC089EBA1 /* ExtensibleEnumeratedName-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC17D19B68FB3B30B4D54E9EF716E97F /* IntervalCreationOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96ABF68D4450441671FB7E4FE0D6CC /* IntervalCreationOperator.swift */; };
-		F242537C6515B30C7D75023CFA8DA61C /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24E12BF5AD9DD87FFB237525C62D7A4 /* BinarySearch.swift */; };
-		F5F638F985102D56C099B07208509DBD /* Frac.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A0ECE4B4249094573C10BCBD683710 /* Frac.swift */; };
-		F90854F5CE744DE217F46D8B36EB9A92 /* WolfNumerics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 331AA1DE5C54299682CD2E16C88DF700 /* WolfNumerics-dummy.m */; };
-		FD6B1CB8407BC2EB1B8F48783876A7A0 /* Lerp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A08CDB2418CA57EB76CE7E25CEAA596 /* Lerp.swift */; };
-		FEE1E4469EB6020CF4F0AD01CD42396C /* ExtensibleEnumeratedName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2DBCD3D81FF483DCDCE3C2CE72AABF /* ExtensibleEnumeratedName.swift */; };
+		E3F8C935B8FAD1AFCCD6881479DA8265 /* Joiner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4472787B6E6FCDDA3DF33F71FB275B /* Joiner.swift */; };
+		E736BC6BE72B31CCD36DADDB98C95079 /* ExtensibleEnumeratedName-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C62FAB793EF5D0C0A83A9D9123353D6 /* ExtensibleEnumeratedName-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E87116393717FA87C2885173A6C73ECB /* WolfStrings-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0294BEB2F36AE62B065184884785F67D /* WolfStrings-dummy.m */; };
+		EEE0D10B93D8D8BF3E4769051D3F8B06 /* SequenceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC1606900C1F36C8D886BAB14FA4FF1 /* SequenceExtensions.swift */; };
+		F660DF5AAA7AFE4980EBDE1D78AB32BB /* AttributedSubstringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8EF4437D5B6F612F20D19DDCE72088 /* AttributedSubstringExtensions.swift */; };
+		FEE1E4469EB6020CF4F0AD01CD42396C /* ExtensibleEnumeratedName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22364CFE9246FD039C115D87628CCFDD /* ExtensibleEnumeratedName.swift */; };
+		FFE733712B4B5C2585A6FE0652E6A7AA /* IntervalCreationOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48E36500AA37F1BA47B01A1D5C257E1 /* IntervalCreationOperator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,102 +127,96 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0258BBCBB23A9BA741A398471FC818D2 /* WolfPipe-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WolfPipe-dummy.m"; sourceTree = "<group>"; };
-		0EA29E3639BD7A86FD37E5A1C9AC382C /* TextAlignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextAlignment.swift; path = WolfStrings/Classes/TextAlignment.swift; sourceTree = "<group>"; };
-		14ECF4948DF637D5C4ED5CE22713AD18 /* WolfStrings.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WolfStrings.modulemap; sourceTree = "<group>"; };
+		01707F20FA63CE7DEF89B274990C9060 /* ExtensibleEnumeratedName-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExtensibleEnumeratedName-prefix.pch"; sourceTree = "<group>"; };
+		0294BEB2F36AE62B065184884785F67D /* WolfStrings-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WolfStrings-dummy.m"; sourceTree = "<group>"; };
+		03D3EFD4A6A8F3247F4E2184E66C1EF7 /* WolfPipe.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WolfPipe.xcconfig; sourceTree = "<group>"; };
+		055E34375C0876064C307E728EE0A38F /* PipeOperator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PipeOperator.swift; path = WolfPipe/Classes/PipeOperator.swift; sourceTree = "<group>"; };
+		0E96AA34859BA624E39A96B1EEBE7571 /* AttributedStringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttributedStringExtensions.swift; path = WolfStrings/Classes/AttributedStringExtensions.swift; sourceTree = "<group>"; };
+		117B92EFCDB6938A69C04A4AD61890CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		126BDA0DF6764644A1D6B41387C71180 /* ExtensibleEnumeratedName.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ExtensibleEnumeratedName.modulemap; sourceTree = "<group>"; };
+		1617ACE8C3A70AE5B63C30FBD14D1298 /* NumericUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumericUtils.swift; path = WolfNumerics/Classes/NumericUtils.swift; sourceTree = "<group>"; };
+		171400E779CFCE9C68FDB19F382ABD14 /* ApproximatelyEqualsOperator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApproximatelyEqualsOperator.swift; path = WolfNumerics/Classes/ApproximatelyEqualsOperator.swift; sourceTree = "<group>"; };
 		173423255231A28609B11C5F2AD3D6D3 /* Pods-WolfStrings_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WolfStrings_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		20867F26E388788340C3174C31753381 /* WolfPipe-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WolfPipe-umbrella.h"; sourceTree = "<group>"; };
-		22AC561585E4078E03F2FBC2DDD2A26A /* ExtensibleEnumeratedName-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExtensibleEnumeratedName-prefix.pch"; sourceTree = "<group>"; };
+		22364CFE9246FD039C115D87628CCFDD /* ExtensibleEnumeratedName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensibleEnumeratedName.swift; path = ExtensibleEnumeratedName/Classes/ExtensibleEnumeratedName.swift; sourceTree = "<group>"; };
+		253ECFBD1DBDB075AEBC00E38AC3E47F /* ExtensibleEnumeratedName.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExtensibleEnumeratedName.xcconfig; sourceTree = "<group>"; };
+		27CD186CDED71E01183E9F547960DBAD /* Interpolable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Interpolable.swift; path = WolfNumerics/Classes/Interpolable.swift; sourceTree = "<group>"; };
 		28AA9EFF608FD30565DA0733EDF5DB26 /* ExtensibleEnumeratedName.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExtensibleEnumeratedName.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		298556D395B0EC3BD12C1DB1E149DD38 /* StringReplacement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringReplacement.swift; path = WolfStrings/Classes/StringReplacement.swift; sourceTree = "<group>"; };
 		2DEAF2BD7F0A0A2557F46782CA2503D0 /* Pods-WolfStrings_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WolfStrings_Example.release.xcconfig"; sourceTree = "<group>"; };
-		331AA1DE5C54299682CD2E16C88DF700 /* WolfNumerics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WolfNumerics-dummy.m"; sourceTree = "<group>"; };
 		367118B7A7931263B5567A0C7AF0E45A /* Pods-WolfStrings_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WolfStrings_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3B0E390EA8E2D0AA4E1B1485BC585346 /* WolfNumerics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WolfNumerics.framework; path = WolfNumerics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		40180475D2E81DB14F852BF726D8407F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		37787EF0B99E550171BCD1C20F42B9C3 /* AttributedString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttributedString.swift; path = WolfStrings/Classes/AttributedString.swift; sourceTree = "<group>"; };
+		3B0E390EA8E2D0AA4E1B1485BC585346 /* WolfNumerics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WolfNumerics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC8FBA174962EC256525C473C2E785B /* CreateRegularExpressionOperator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreateRegularExpressionOperator.swift; path = WolfStrings/Classes/CreateRegularExpressionOperator.swift; sourceTree = "<group>"; };
+		3E172C4CBB473C47F6F09DB9DEEDBFDA /* WolfStrings.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WolfStrings.xcconfig; sourceTree = "<group>"; };
 		4CBE5131B0C10237808D19EE6F147531 /* WolfNumerics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WolfNumerics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E75F68E5EC645D6A1C9BDEAE1CADD21 /* WolfPipe.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WolfPipe.xcconfig; sourceTree = "<group>"; };
-		511FF025F64C384539487EC2BD2E21E1 /* ExtensibleEnumeratedName.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExtensibleEnumeratedName.xcconfig; sourceTree = "<group>"; };
-		514C065C192E41C47959C0E1C502C1B2 /* Pods_WolfStrings_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WolfStrings_Example.framework; path = "Pods-WolfStrings_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52DE2D46E04D9F3DBC31595E36295615 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4D5FEF6FBCD6530C6E9B977E1AAB0375 /* WolfPipe-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WolfPipe-umbrella.h"; sourceTree = "<group>"; };
+		4DD1F3C379D66C686FE9A4ED86E60768 /* WolfPipe-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WolfPipe-Info.plist"; sourceTree = "<group>"; };
+		514C065C192E41C47959C0E1C502C1B2 /* Pods_WolfStrings_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WolfStrings_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D24B123E9F83DBDE464B48CFB5EE48 /* Pods-WolfStrings_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WolfStrings_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5B53D6AE14D8FAF489137D93822E0419 /* WolfNumerics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WolfNumerics.xcconfig; sourceTree = "<group>"; };
-		5D53EF684002F3FFA4B025FF52E8AEE0 /* WolfStrings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WolfStrings.framework; path = WolfStrings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		622CE64FDDBCD9988081E7EC58618120 /* ExtensibleEnumeratedName.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ExtensibleEnumeratedName.modulemap; sourceTree = "<group>"; };
-		63A33EBD445DF9DDD8106BB8F076EE3C /* Pods_WolfStrings_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WolfStrings_Tests.framework; path = "Pods-WolfStrings_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		63BBF39A2E1ECB30A7CF14DA7EE34ADA /* WolfPipe.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WolfPipe.modulemap; sourceTree = "<group>"; };
-		643192F90C00F00AAF870B8A5415565E /* RangeExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RangeExtensions.swift; path = WolfNumerics/Classes/RangeExtensions.swift; sourceTree = "<group>"; };
-		69F6B6C7CA188F96DA3C248129D375DD /* StringIndexesAndRanges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringIndexesAndRanges.swift; path = WolfStrings/Classes/StringIndexesAndRanges.swift; sourceTree = "<group>"; };
-		6A08CDB2418CA57EB76CE7E25CEAA596 /* Lerp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lerp.swift; path = WolfNumerics/Classes/Lerp.swift; sourceTree = "<group>"; };
-		6DFF6F4C91D6C6E4A6DAA6F19380E0AA /* AttributedSubstringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttributedSubstringExtensions.swift; path = WolfStrings/Classes/AttributedSubstringExtensions.swift; sourceTree = "<group>"; };
-		6F43226173F79C7441BFC1687C50F7D9 /* NumericUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumericUtils.swift; path = WolfNumerics/Classes/NumericUtils.swift; sourceTree = "<group>"; };
+		5D53EF684002F3FFA4B025FF52E8AEE0 /* WolfStrings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WolfStrings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E8EF4437D5B6F612F20D19DDCE72088 /* AttributedSubstringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttributedSubstringExtensions.swift; path = WolfStrings/Classes/AttributedSubstringExtensions.swift; sourceTree = "<group>"; };
+		63A33EBD445DF9DDD8106BB8F076EE3C /* Pods_WolfStrings_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WolfStrings_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		648FA2D9680F035C032960112CFBDA39 /* ExtensibleEnumeratedName-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ExtensibleEnumeratedName-dummy.m"; sourceTree = "<group>"; };
+		69F6F34A32CA4E83889E89318A46B66D /* RunningAverage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RunningAverage.swift; path = WolfNumerics/Classes/RunningAverage.swift; sourceTree = "<group>"; };
+		6B232EE6B99976469D035AC3A43EBD0D /* TextCheckingResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextCheckingResult.swift; path = WolfStrings/Classes/TextCheckingResult.swift; sourceTree = "<group>"; };
+		6D332AF96C17F112ACABE1FB2C874F75 /* PercentOperator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PercentOperator.swift; path = WolfNumerics/Classes/PercentOperator.swift; sourceTree = "<group>"; };
 		71861EA9A589D168026F43670D2999A8 /* Pods-WolfStrings_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WolfStrings_Example-frameworks.sh"; sourceTree = "<group>"; };
-		71CCD1959926BFF41C2E794EA1551193 /* AttributedString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttributedString.swift; path = WolfStrings/Classes/AttributedString.swift; sourceTree = "<group>"; };
-		72A965EA9C4815F91EAEB49C731DBCE5 /* RunningAverage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RunningAverage.swift; path = WolfNumerics/Classes/RunningAverage.swift; sourceTree = "<group>"; };
-		7317BA4A6EB2991E06BCAD197F9B5322 /* WolfStringsError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WolfStringsError.swift; path = WolfStrings/Classes/WolfStringsError.swift; sourceTree = "<group>"; };
-		75C6D699976E80C5C0FEE752DB2DBF7D /* WolfStrings-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WolfStrings-Info.plist"; sourceTree = "<group>"; };
-		75F4C2004C00958EA5FB26C3AC0BE9B7 /* TextCheckingResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextCheckingResult.swift; path = WolfStrings/Classes/TextCheckingResult.swift; sourceTree = "<group>"; };
-		792B4F0591E02ED1D32063C49B2C43EA /* AttributedStringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttributedStringExtensions.swift; path = WolfStrings/Classes/AttributedStringExtensions.swift; sourceTree = "<group>"; };
-		79A811840821618109AC1B040FD87090 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		7AE723AF7B2451CE206765C57CB26E57 /* TextCheckingResultExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextCheckingResultExtensions.swift; path = WolfStrings/Classes/TextCheckingResultExtensions.swift; sourceTree = "<group>"; };
+		7ABE577D4B39ED4861A55C9F5DF093B3 /* PipeCompatibleFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PipeCompatibleFunctions.swift; path = WolfPipe/Classes/PipeCompatibleFunctions.swift; sourceTree = "<group>"; };
+		7AFAB1DB4E0E6F87950D98DAE2FA747D /* WolfNumerics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WolfNumerics-umbrella.h"; sourceTree = "<group>"; };
 		7B35ABB963B6EA09810DEC8A98E616CE /* Pods-WolfStrings_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WolfStrings_Tests-dummy.m"; sourceTree = "<group>"; };
+		7C62FAB793EF5D0C0A83A9D9123353D6 /* ExtensibleEnumeratedName-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExtensibleEnumeratedName-umbrella.h"; sourceTree = "<group>"; };
 		7F4944281984CBD286BE7587B4DC6EB7 /* Pods-WolfStrings_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WolfStrings_Example-umbrella.h"; sourceTree = "<group>"; };
-		8303D8F1FAD68F3D263C47841F03A035 /* StringReplacement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringReplacement.swift; path = WolfStrings/Classes/StringReplacement.swift; sourceTree = "<group>"; };
-		894F6A083D13FABD47F20019568C2262 /* WolfStrings-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WolfStrings-dummy.m"; sourceTree = "<group>"; };
-		8AA8620D46666F0F5C0BB833CB55F853 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		8D68480120EEDEBBE2608CF0674DFB8C /* RegularExpressionExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegularExpressionExtensions.swift; path = WolfStrings/Classes/RegularExpressionExtensions.swift; sourceTree = "<group>"; };
-		8EF7D6CA186402B326F6F6CB9660D026 /* StringTransformations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringTransformations.swift; path = WolfStrings/Classes/StringTransformations.swift; sourceTree = "<group>"; };
-		8F2CCDC248D65E65E1FC8A365EF1E3B6 /* ExtensibleEnumeratedName.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ExtensibleEnumeratedName.framework; path = ExtensibleEnumeratedName.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		90536159B568EA020BDBF128C7EE85D2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9064F496E386096F8841CDB326C710A0 /* ExtensibleEnumeratedName-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ExtensibleEnumeratedName-Info.plist"; sourceTree = "<group>"; };
+		80019B0A5849E0A2E181E724F2468E7A /* MatchRegularExpressionOperator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchRegularExpressionOperator.swift; path = WolfStrings/Classes/MatchRegularExpressionOperator.swift; sourceTree = "<group>"; };
+		8104D9C2F0FE44CE9ABF185CF09C6DBE /* WolfNumerics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WolfNumerics.xcconfig; sourceTree = "<group>"; };
+		846E52600F2571FB8990BC4C5EE93362 /* WolfNumerics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WolfNumerics-dummy.m"; sourceTree = "<group>"; };
+		892A0F34378FE5894E29EB05F87C418A /* TextCheckingResultExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextCheckingResultExtensions.swift; path = WolfStrings/Classes/TextCheckingResultExtensions.swift; sourceTree = "<group>"; };
+		89AD9AAE741424CCAFE6682209D2B391 /* ExtensibleEnumeratedName-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ExtensibleEnumeratedName-Info.plist"; sourceTree = "<group>"; };
+		8F2CCDC248D65E65E1FC8A365EF1E3B6 /* ExtensibleEnumeratedName.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExtensibleEnumeratedName.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91278EEADCC6419EEEE12F44CF37F791 /* Pods-WolfStrings_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WolfStrings_Example.modulemap"; sourceTree = "<group>"; };
-		915D21D3C8CAE86EFE3B309FE4EF8759 /* WolfNumerics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WolfNumerics-umbrella.h"; sourceTree = "<group>"; };
-		935524BA5A1209B4D0C6F6A89A81C4BB /* ObjectAliaser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectAliaser.swift; path = WolfStrings/Classes/ObjectAliaser.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		943440CF9F406222A4D6D68972530C0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		973FAAD170745EC8EC13C2F5DB974903 /* WolfNumerics-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WolfNumerics-Info.plist"; sourceTree = "<group>"; };
 		99F0A8DF634A37E9C6E0B1247340D56C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9A2DBCD3D81FF483DCDCE3C2CE72AABF /* ExtensibleEnumeratedName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensibleEnumeratedName.swift; path = ExtensibleEnumeratedName/Classes/ExtensibleEnumeratedName.swift; sourceTree = "<group>"; };
-		9D3C74E8595C669B2D9FBDF8090E7DD5 /* WolfPipe.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WolfPipe.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F56D4A69C85F05C5AF63A7DEFF8D700 /* WolfNumerics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WolfNumerics-prefix.pch"; sourceTree = "<group>"; };
-		A02D8ACD9B2A3AFC98A0B4E2A98FD727 /* AttributedSubstring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttributedSubstring.swift; path = WolfStrings/Classes/AttributedSubstring.swift; sourceTree = "<group>"; };
-		A0E6E342F4C869392F1FF74C0481E972 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		A1BB18A629B8E28DEE4F6FF54A796F9F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9C4472787B6E6FCDDA3DF33F71FB275B /* Joiner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Joiner.swift; path = WolfStrings/Classes/Joiner.swift; sourceTree = "<group>"; };
+		9CC8A14C4B42D8102E9E275E4D40BBFD /* WolfPipe-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WolfPipe-prefix.pch"; sourceTree = "<group>"; };
+		9DAE45545460BFBBA480282AA00D7F6E /* WolfStrings.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WolfStrings.modulemap; sourceTree = "<group>"; };
+		A430D79138C2D54CE322031DB87CC270 /* Interval.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Interval.swift; path = WolfNumerics/Classes/Interval.swift; sourceTree = "<group>"; };
 		A492204DB9C70DF7FDDB1C94678CB079 /* Pods-WolfStrings_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WolfStrings_Example-Info.plist"; sourceTree = "<group>"; };
 		A5863ABBC27BDAC9FA7058B87151E2C6 /* Pods-WolfStrings_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WolfStrings_Tests-Info.plist"; sourceTree = "<group>"; };
-		A5A2ECEE8666B278E0A230755C105C90 /* Interval.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Interval.swift; path = WolfNumerics/Classes/Interval.swift; sourceTree = "<group>"; };
-		A5D78BCC0F2CE84621191EF4CD225F17 /* ExtensibleEnumeratedName-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ExtensibleEnumeratedName-dummy.m"; sourceTree = "<group>"; };
-		A607778125BD8EDAB018C274D56FE9D3 /* Joiner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Joiner.swift; path = WolfStrings/Classes/Joiner.swift; sourceTree = "<group>"; };
-		A6FC2E928BD14B0DF3F7A229D2172755 /* AttributedStringOperator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttributedStringOperator.swift; path = WolfStrings/Classes/AttributedStringOperator.swift; sourceTree = "<group>"; };
-		A926A4394C4C48F7E4927EF4E8A4153F /* PipeCompatibleFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PipeCompatibleFunctions.swift; path = WolfPipe/Classes/PipeCompatibleFunctions.swift; sourceTree = "<group>"; };
-		AAB2D823802D0ADCE05F7D92410A6CE6 /* PipeOperator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PipeOperator.swift; path = WolfPipe/Classes/PipeOperator.swift; sourceTree = "<group>"; };
-		AB563747408E757AE34C6DB11D260148 /* WolfStrings.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WolfStrings.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AF2EA54FB861BC7ED28418BA5A8F1297 /* StringFloatPrecision.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringFloatPrecision.swift; path = WolfStrings/Classes/StringFloatPrecision.swift; sourceTree = "<group>"; };
+		A7AD563DDE6D18853F662E3C596B3B30 /* Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Random.swift; path = WolfNumerics/Classes/Random.swift; sourceTree = "<group>"; };
+		A8C5146E3B6454F104F411300CE9DB37 /* TextAlignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextAlignment.swift; path = WolfStrings/Classes/TextAlignment.swift; sourceTree = "<group>"; };
+		ABC1606900C1F36C8D886BAB14FA4FF1 /* SequenceExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SequenceExtensions.swift; path = WolfStrings/Classes/SequenceExtensions.swift; sourceTree = "<group>"; };
+		B135A3F0D8275B77041923C0BA41B09A /* WolfStringsError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WolfStringsError.swift; path = WolfStrings/Classes/WolfStringsError.swift; sourceTree = "<group>"; };
 		B2284C665F3FA753697DCA4384D73CBB /* Pods-WolfStrings_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WolfStrings_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B23ED3E0FFEDB18A95AE6004DCFE2331 /* StringFloatPrecision.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringFloatPrecision.swift; path = WolfStrings/Classes/StringFloatPrecision.swift; sourceTree = "<group>"; };
+		B38BF41238EF78BB5939C8105CA2EDFB /* StringIndexesAndRanges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringIndexesAndRanges.swift; path = WolfStrings/Classes/StringIndexesAndRanges.swift; sourceTree = "<group>"; };
+		B48E36500AA37F1BA47B01A1D5C257E1 /* IntervalCreationOperator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntervalCreationOperator.swift; path = WolfNumerics/Classes/IntervalCreationOperator.swift; sourceTree = "<group>"; };
 		B4C0153AD1F58CDA620E7F9049C263D9 /* Pods-WolfStrings_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WolfStrings_Tests.modulemap"; sourceTree = "<group>"; };
-		B50E81EA573494A82D0AA77C6F92A41A /* WolfPipe-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WolfPipe-prefix.pch"; sourceTree = "<group>"; };
-		B5E38D20AF82DACD7D3E0D4EF979A72C /* WolfStrings.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WolfStrings.xcconfig; sourceTree = "<group>"; };
-		B6400C1AB24DE010A7E5271AC089EBA1 /* ExtensibleEnumeratedName-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExtensibleEnumeratedName-umbrella.h"; sourceTree = "<group>"; };
-		BA166F2F02E4F4C6162A0AB2F0C7F25E /* MatchRegularExpressionOperator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchRegularExpressionOperator.swift; path = WolfStrings/Classes/MatchRegularExpressionOperator.swift; sourceTree = "<group>"; };
+		B72AA39DB617C0B1FC993FA608817E25 /* RangeExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RangeExtensions.swift; path = WolfNumerics/Classes/RangeExtensions.swift; sourceTree = "<group>"; };
+		B7FEE66F548755F90BFBCDD6A17DD8F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B9DBAF13E723C21A4FE1327DDAE4E761 /* Frac.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Frac.swift; path = WolfNumerics/Classes/Frac.swift; sourceTree = "<group>"; };
+		BBB270F9AD2E977853ABE28CCE9DCF72 /* UTF8.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UTF8.swift; path = WolfStrings/Classes/UTF8.swift; sourceTree = "<group>"; };
 		BBC5929502A62424E36CF40ACEE2346F /* Pods-WolfStrings_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WolfStrings_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BC96ABF68D4450441671FB7E4FE0D6CC /* IntervalCreationOperator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntervalCreationOperator.swift; path = WolfNumerics/Classes/IntervalCreationOperator.swift; sourceTree = "<group>"; };
-		BFC1A7A0971E7F757EB8D5A7478DD2ED /* WolfStrings-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WolfStrings-prefix.pch"; sourceTree = "<group>"; };
-		C0D0B3551D9A05D3DED87C5F3AFCDAC8 /* WolfPipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WolfPipe.framework; path = WolfPipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C136EE7575106978634919C0B97957EA /* Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Random.swift; path = WolfNumerics/Classes/Random.swift; sourceTree = "<group>"; };
-		C370C88D0E64C81F71319F5E0E63B24E /* WolfStrings-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WolfStrings-umbrella.h"; sourceTree = "<group>"; };
-		C4FCD80236DCEF751B0B7501526AFAEA /* Interpolable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Interpolable.swift; path = WolfNumerics/Classes/Interpolable.swift; sourceTree = "<group>"; };
-		C76B66449FF12999FD7D892CF319E49D /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = WolfStrings/Classes/StringExtensions.swift; sourceTree = "<group>"; };
-		D2E76485172B0CA8F87A0F39CEE1DB30 /* WolfPipe-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WolfPipe-Info.plist"; sourceTree = "<group>"; };
+		BD12667A5EB0D2435E6F67730F05E1A1 /* WolfNumerics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WolfNumerics-prefix.pch"; sourceTree = "<group>"; };
+		C0D0B3551D9A05D3DED87C5F3AFCDAC8 /* WolfPipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WolfPipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA97D35F9A216A8D462623FFDF4E0C5B /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = WolfStrings/Classes/StringExtensions.swift; sourceTree = "<group>"; };
 		D42A4083C6B9AA8C8169BF845FA26BE0 /* Pods-WolfStrings_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WolfStrings_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D51F71F0320E81887A0CA9C14040DB09 /* ExtensibleEnumeratedName.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ExtensibleEnumeratedName.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		DA7BBE8A47D9F1E83646215675B0BCC5 /* CreateRegularExpressionOperator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreateRegularExpressionOperator.swift; path = WolfStrings/Classes/CreateRegularExpressionOperator.swift; sourceTree = "<group>"; };
+		D5C5001A6A9FF82B5F7823842B905AD8 /* WolfStrings-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WolfStrings-umbrella.h"; sourceTree = "<group>"; };
+		D94EF4AC95C2D069F1DE95C238171A8D /* WolfPipe-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WolfPipe-dummy.m"; sourceTree = "<group>"; };
+		D99A48A6FA786A90B1C9184E2865CE62 /* Hex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hex.swift; path = WolfStrings/Classes/Hex.swift; sourceTree = "<group>"; };
 		DE633D534283294AB93861397E310E72 /* Pods-WolfStrings_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WolfStrings_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E24E12BF5AD9DD87FFB237525C62D7A4 /* BinarySearch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinarySearch.swift; path = WolfNumerics/Classes/BinarySearch.swift; sourceTree = "<group>"; };
+		E13723F99BCE189F97DB4989B6102D36 /* WolfNumerics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WolfNumerics.modulemap; sourceTree = "<group>"; };
+		E31813F172E929528E44C424467037A9 /* WolfStrings.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = WolfStrings.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E86099B449C6CB6A3AB76BFEE048279F /* RegularExpressionExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegularExpressionExtensions.swift; path = WolfStrings/Classes/RegularExpressionExtensions.swift; sourceTree = "<group>"; };
+		E98F19EB1D0F68B769B13D5380FB808E /* WolfStrings-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WolfStrings-Info.plist"; sourceTree = "<group>"; };
+		EC71C183952CAC5FB304CE2EAB1F6E66 /* AttributedSubstring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttributedSubstring.swift; path = WolfStrings/Classes/AttributedSubstring.swift; sourceTree = "<group>"; };
 		EF25308B821D1DF8771B82F1F24348A4 /* WolfPipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WolfPipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F17005275643B5AE8774937E50BA2E06 /* WolfNumerics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WolfNumerics.modulemap; sourceTree = "<group>"; };
-		F3A0ECE4B4249094573C10BCBD683710 /* Frac.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Frac.swift; path = WolfNumerics/Classes/Frac.swift; sourceTree = "<group>"; };
-		F5C9A327DEFAA3D72C28BBC559BD245F /* Hex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hex.swift; path = WolfStrings/Classes/Hex.swift; sourceTree = "<group>"; };
-		F67CF7B06B88970846E5CAF8143211DA /* WolfNumerics-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WolfNumerics-Info.plist"; sourceTree = "<group>"; };
-		F900113BCEEC2D1544D4BBB31E6D8DFE /* WolfNumerics.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WolfNumerics.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FBA02E41F780CE9822822B5A8EEA1901 /* UTF8.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UTF8.swift; path = WolfStrings/Classes/UTF8.swift; sourceTree = "<group>"; };
+		F0724E5A6553F360D22CDA07B88BA13F /* WolfPipe.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WolfPipe.modulemap; sourceTree = "<group>"; };
+		F586A5ACEED824AE17DA71F9875B1224 /* ObjectAliaser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectAliaser.swift; path = WolfStrings/Classes/ObjectAliaser.swift; sourceTree = "<group>"; };
+		F6CF6AF2BFE18E376CF706D5FCAA63A2 /* StringTransformations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringTransformations.swift; path = WolfStrings/Classes/StringTransformations.swift; sourceTree = "<group>"; };
+		F75D20930F033C3243E3DA10D1377B4A /* WolfStrings-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WolfStrings-prefix.pch"; sourceTree = "<group>"; };
+		F93C47741394A7444C4D981368B35344 /* AttributedStringOperator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttributedStringOperator.swift; path = WolfStrings/Classes/AttributedStringOperator.swift; sourceTree = "<group>"; };
+		F9983FEE81AE3B8B9F4E226AD8AB7987 /* BinarySearch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinarySearch.swift; path = WolfNumerics/Classes/BinarySearch.swift; sourceTree = "<group>"; };
+		FDB436810EEBAA5FC85181921102CFB8 /* Lerp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lerp.swift; path = WolfNumerics/Classes/Lerp.swift; sourceTree = "<group>"; };
 		FE0278590F87CFD42A76610D944EABFE /* Pods-WolfStrings_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WolfStrings_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FEC6F41945D59F8A323533F83D77A156 /* Pods-WolfStrings_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WolfStrings_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -279,30 +276,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00C45799743F18F1B7EACB6BFAC6B546 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				14ECF4948DF637D5C4ED5CE22713AD18 /* WolfStrings.modulemap */,
-				B5E38D20AF82DACD7D3E0D4EF979A72C /* WolfStrings.xcconfig */,
-				894F6A083D13FABD47F20019568C2262 /* WolfStrings-dummy.m */,
-				75C6D699976E80C5C0FEE752DB2DBF7D /* WolfStrings-Info.plist */,
-				BFC1A7A0971E7F757EB8D5A7478DD2ED /* WolfStrings-prefix.pch */,
-				C370C88D0E64C81F71319F5E0E63B24E /* WolfStrings-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WolfStrings";
-			sourceTree = "<group>";
-		};
-		0AB738049A8DEE3AABBB24C1542F148A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A0E6E342F4C869392F1FF74C0481E972 /* LICENSE */,
-				79A811840821618109AC1B040FD87090 /* README.md */,
-				F900113BCEEC2D1544D4BBB31E6D8DFE /* WolfNumerics.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		1B004E55CD8540EFE8D5FC08DC089484 /* Pods-WolfStrings_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -319,115 +292,58 @@
 			path = "Target Support Files/Pods-WolfStrings_Tests";
 			sourceTree = "<group>";
 		};
-		211FC5D011E1214E56AE987CDDD7524A /* Support Files */ = {
+		3EFAC0687157231419FDB076A8913F1F /* WolfStrings */ = {
 			isa = PBXGroup;
 			children = (
-				622CE64FDDBCD9988081E7EC58618120 /* ExtensibleEnumeratedName.modulemap */,
-				511FF025F64C384539487EC2BD2E21E1 /* ExtensibleEnumeratedName.xcconfig */,
-				A5D78BCC0F2CE84621191EF4CD225F17 /* ExtensibleEnumeratedName-dummy.m */,
-				9064F496E386096F8841CDB326C710A0 /* ExtensibleEnumeratedName-Info.plist */,
-				22AC561585E4078E03F2FBC2DDD2A26A /* ExtensibleEnumeratedName-prefix.pch */,
-				B6400C1AB24DE010A7E5271AC089EBA1 /* ExtensibleEnumeratedName-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../WolfStrings/Example/Pods/Target Support Files/ExtensibleEnumeratedName";
-			sourceTree = "<group>";
-		};
-		2619A1C07B104A0C849B60997C068127 /* WolfStrings */ = {
-			isa = PBXGroup;
-			children = (
-				71CCD1959926BFF41C2E794EA1551193 /* AttributedString.swift */,
-				792B4F0591E02ED1D32063C49B2C43EA /* AttributedStringExtensions.swift */,
-				A6FC2E928BD14B0DF3F7A229D2172755 /* AttributedStringOperator.swift */,
-				A02D8ACD9B2A3AFC98A0B4E2A98FD727 /* AttributedSubstring.swift */,
-				6DFF6F4C91D6C6E4A6DAA6F19380E0AA /* AttributedSubstringExtensions.swift */,
-				DA7BBE8A47D9F1E83646215675B0BCC5 /* CreateRegularExpressionOperator.swift */,
-				F5C9A327DEFAA3D72C28BBC559BD245F /* Hex.swift */,
-				A607778125BD8EDAB018C274D56FE9D3 /* Joiner.swift */,
-				BA166F2F02E4F4C6162A0AB2F0C7F25E /* MatchRegularExpressionOperator.swift */,
-				935524BA5A1209B4D0C6F6A89A81C4BB /* ObjectAliaser.swift */,
-				8D68480120EEDEBBE2608CF0674DFB8C /* RegularExpressionExtensions.swift */,
-				C76B66449FF12999FD7D892CF319E49D /* StringExtensions.swift */,
-				AF2EA54FB861BC7ED28418BA5A8F1297 /* StringFloatPrecision.swift */,
-				69F6B6C7CA188F96DA3C248129D375DD /* StringIndexesAndRanges.swift */,
-				8303D8F1FAD68F3D263C47841F03A035 /* StringReplacement.swift */,
-				8EF7D6CA186402B326F6F6CB9660D026 /* StringTransformations.swift */,
-				0EA29E3639BD7A86FD37E5A1C9AC382C /* TextAlignment.swift */,
-				75F4C2004C00958EA5FB26C3AC0BE9B7 /* TextCheckingResult.swift */,
-				7AE723AF7B2451CE206765C57CB26E57 /* TextCheckingResultExtensions.swift */,
-				FBA02E41F780CE9822822B5A8EEA1901 /* UTF8.swift */,
-				7317BA4A6EB2991E06BCAD197F9B5322 /* WolfStringsError.swift */,
-				6EA917AFB8E82380CF874CFA2908787C /* Pod */,
-				00C45799743F18F1B7EACB6BFAC6B546 /* Support Files */,
+				37787EF0B99E550171BCD1C20F42B9C3 /* AttributedString.swift */,
+				0E96AA34859BA624E39A96B1EEBE7571 /* AttributedStringExtensions.swift */,
+				F93C47741394A7444C4D981368B35344 /* AttributedStringOperator.swift */,
+				EC71C183952CAC5FB304CE2EAB1F6E66 /* AttributedSubstring.swift */,
+				5E8EF4437D5B6F612F20D19DDCE72088 /* AttributedSubstringExtensions.swift */,
+				3CC8FBA174962EC256525C473C2E785B /* CreateRegularExpressionOperator.swift */,
+				D99A48A6FA786A90B1C9184E2865CE62 /* Hex.swift */,
+				9C4472787B6E6FCDDA3DF33F71FB275B /* Joiner.swift */,
+				80019B0A5849E0A2E181E724F2468E7A /* MatchRegularExpressionOperator.swift */,
+				F586A5ACEED824AE17DA71F9875B1224 /* ObjectAliaser.swift */,
+				E86099B449C6CB6A3AB76BFEE048279F /* RegularExpressionExtensions.swift */,
+				ABC1606900C1F36C8D886BAB14FA4FF1 /* SequenceExtensions.swift */,
+				CA97D35F9A216A8D462623FFDF4E0C5B /* StringExtensions.swift */,
+				B23ED3E0FFEDB18A95AE6004DCFE2331 /* StringFloatPrecision.swift */,
+				B38BF41238EF78BB5939C8105CA2EDFB /* StringIndexesAndRanges.swift */,
+				298556D395B0EC3BD12C1DB1E149DD38 /* StringReplacement.swift */,
+				F6CF6AF2BFE18E376CF706D5FCAA63A2 /* StringTransformations.swift */,
+				A8C5146E3B6454F104F411300CE9DB37 /* TextAlignment.swift */,
+				6B232EE6B99976469D035AC3A43EBD0D /* TextCheckingResult.swift */,
+				892A0F34378FE5894E29EB05F87C418A /* TextCheckingResultExtensions.swift */,
+				BBB270F9AD2E977853ABE28CCE9DCF72 /* UTF8.swift */,
+				B135A3F0D8275B77041923C0BA41B09A /* WolfStringsError.swift */,
+				BBC6360D5E998CB6E8C5EEBBAB5752EF /* Pod */,
+				9A2DF322EF1DE2BEAEC74EEC17874485 /* Support Files */,
 			);
 			name = WolfStrings;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		32FE613586A8FF749565FD0E26DC48FF /* WolfNumerics */ = {
+		521927DC774D1059994244FF9EBCBFE6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E24E12BF5AD9DD87FFB237525C62D7A4 /* BinarySearch.swift */,
-				F3A0ECE4B4249094573C10BCBD683710 /* Frac.swift */,
-				C4FCD80236DCEF751B0B7501526AFAEA /* Interpolable.swift */,
-				A5A2ECEE8666B278E0A230755C105C90 /* Interval.swift */,
-				BC96ABF68D4450441671FB7E4FE0D6CC /* IntervalCreationOperator.swift */,
-				6A08CDB2418CA57EB76CE7E25CEAA596 /* Lerp.swift */,
-				6F43226173F79C7441BFC1687C50F7D9 /* NumericUtils.swift */,
-				C136EE7575106978634919C0B97957EA /* Random.swift */,
-				643192F90C00F00AAF870B8A5415565E /* RangeExtensions.swift */,
-				72A965EA9C4815F91EAEB49C731DBCE5 /* RunningAverage.swift */,
-				0AB738049A8DEE3AABBB24C1542F148A /* Pod */,
-				DEAA867E4760EA07EE27EDE4DE8B01BB /* Support Files */,
+				3EFAC0687157231419FDB076A8913F1F /* WolfStrings */,
 			);
-			name = WolfNumerics;
-			path = ../../../WolfNumerics;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		5903A84F168222B6D32E90EEA8585EA4 /* Support Files */ = {
+		702C9DBB9F7EBB4322725704BFD0B0BE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				63BBF39A2E1ECB30A7CF14DA7EE34ADA /* WolfPipe.modulemap */,
-				4E75F68E5EC645D6A1C9BDEAE1CADD21 /* WolfPipe.xcconfig */,
-				0258BBCBB23A9BA741A398471FC818D2 /* WolfPipe-dummy.m */,
-				D2E76485172B0CA8F87A0F39CEE1DB30 /* WolfPipe-Info.plist */,
-				B50E81EA573494A82D0AA77C6F92A41A /* WolfPipe-prefix.pch */,
-				20867F26E388788340C3174C31753381 /* WolfPipe-umbrella.h */,
+				126BDA0DF6764644A1D6B41387C71180 /* ExtensibleEnumeratedName.modulemap */,
+				253ECFBD1DBDB075AEBC00E38AC3E47F /* ExtensibleEnumeratedName.xcconfig */,
+				648FA2D9680F035C032960112CFBDA39 /* ExtensibleEnumeratedName-dummy.m */,
+				89AD9AAE741424CCAFE6682209D2B391 /* ExtensibleEnumeratedName-Info.plist */,
+				01707F20FA63CE7DEF89B274990C9060 /* ExtensibleEnumeratedName-prefix.pch */,
+				7C62FAB793EF5D0C0A83A9D9123353D6 /* ExtensibleEnumeratedName-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../WolfStrings/Example/Pods/Target Support Files/WolfPipe";
-			sourceTree = "<group>";
-		};
-		5E944430341E845FF9F6147B89FE50AD /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				52DE2D46E04D9F3DBC31595E36295615 /* LICENSE */,
-				8AA8620D46666F0F5C0BB833CB55F853 /* README.md */,
-				9D3C74E8595C669B2D9FBDF8090E7DD5 /* WolfPipe.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		62DF5405079E190D3B995FE8A0B9C7BC /* WolfPipe */ = {
-			isa = PBXGroup;
-			children = (
-				A926A4394C4C48F7E4927EF4E8A4153F /* PipeCompatibleFunctions.swift */,
-				AAB2D823802D0ADCE05F7D92410A6CE6 /* PipeOperator.swift */,
-				5E944430341E845FF9F6147B89FE50AD /* Pod */,
-				5903A84F168222B6D32E90EEA8585EA4 /* Support Files */,
-			);
-			name = WolfPipe;
-			path = ../../../WolfPipe;
-			sourceTree = "<group>";
-		};
-		6EA917AFB8E82380CF874CFA2908787C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A1BB18A629B8E28DEE4F6FF54A796F9F /* LICENSE */,
-				40180475D2E81DB14F852BF726D8407F /* README.md */,
-				AB563747408E757AE34C6DB11D260148 /* WolfStrings.podspec */,
-			);
-			name = Pod;
+			path = "../Target Support Files/ExtensibleEnumeratedName";
 			sourceTree = "<group>";
 		};
 		735DACB1FF464F38F77B369BC6B63492 /* Targets Support Files */ = {
@@ -443,8 +359,9 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				CD4339065A5DEFF48501A2C6C947B2B8 /* Development Pods */,
+				521927DC774D1059994244FF9EBCBFE6 /* Development Pods */,
 				8D1F4B5AF676B0A60D346802D5A60F02 /* Frameworks */,
+				F58EA5CE104A5FDE7D6A0D82A17156C1 /* Pods */,
 				D7F641CF62E975DEF774F19CA69D0723 /* Products */,
 				735DACB1FF464F38F77B369BC6B63492 /* Targets Support Files */,
 			);
@@ -461,6 +378,43 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		91097206226DE166BC86DD69B1681332 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E13723F99BCE189F97DB4989B6102D36 /* WolfNumerics.modulemap */,
+				8104D9C2F0FE44CE9ABF185CF09C6DBE /* WolfNumerics.xcconfig */,
+				846E52600F2571FB8990BC4C5EE93362 /* WolfNumerics-dummy.m */,
+				973FAAD170745EC8EC13C2F5DB974903 /* WolfNumerics-Info.plist */,
+				BD12667A5EB0D2435E6F67730F05E1A1 /* WolfNumerics-prefix.pch */,
+				7AFAB1DB4E0E6F87950D98DAE2FA747D /* WolfNumerics-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WolfNumerics";
+			sourceTree = "<group>";
+		};
+		9A2DF322EF1DE2BEAEC74EEC17874485 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DAE45545460BFBBA480282AA00D7F6E /* WolfStrings.modulemap */,
+				3E172C4CBB473C47F6F09DB9DEEDBFDA /* WolfStrings.xcconfig */,
+				0294BEB2F36AE62B065184884785F67D /* WolfStrings-dummy.m */,
+				E98F19EB1D0F68B769B13D5380FB808E /* WolfStrings-Info.plist */,
+				F75D20930F033C3243E3DA10D1377B4A /* WolfStrings-prefix.pch */,
+				D5C5001A6A9FF82B5F7823842B905AD8 /* WolfStrings-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WolfStrings";
+			sourceTree = "<group>";
+		};
+		9E686F69FC8948028FFDA47439DC88B5 /* ExtensibleEnumeratedName */ = {
+			isa = PBXGroup;
+			children = (
+				22364CFE9246FD039C115D87628CCFDD /* ExtensibleEnumeratedName.swift */,
+				702C9DBB9F7EBB4322725704BFD0B0BE /* Support Files */,
+			);
+			path = ExtensibleEnumeratedName;
+			sourceTree = "<group>";
+		};
 		AA0592EDB8FB32E69601F4D946606754 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -469,26 +423,48 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		B4004E88B5A66791F21EC2A39A1CFBF4 /* ExtensibleEnumeratedName */ = {
+		B5684394B95DB0D90F6254E2497DFE2F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9A2DBCD3D81FF483DCDCE3C2CE72AABF /* ExtensibleEnumeratedName.swift */,
-				F841C7037B7E42BA013EB285375D7194 /* Pod */,
-				211FC5D011E1214E56AE987CDDD7524A /* Support Files */,
+				F0724E5A6553F360D22CDA07B88BA13F /* WolfPipe.modulemap */,
+				03D3EFD4A6A8F3247F4E2184E66C1EF7 /* WolfPipe.xcconfig */,
+				D94EF4AC95C2D069F1DE95C238171A8D /* WolfPipe-dummy.m */,
+				4DD1F3C379D66C686FE9A4ED86E60768 /* WolfPipe-Info.plist */,
+				9CC8A14C4B42D8102E9E275E4D40BBFD /* WolfPipe-prefix.pch */,
+				4D5FEF6FBCD6530C6E9B977E1AAB0375 /* WolfPipe-umbrella.h */,
 			);
-			name = ExtensibleEnumeratedName;
-			path = ../../../ExtensibleEnumeratedName;
+			name = "Support Files";
+			path = "../Target Support Files/WolfPipe";
 			sourceTree = "<group>";
 		};
-		CD4339065A5DEFF48501A2C6C947B2B8 /* Development Pods */ = {
+		BBC6360D5E998CB6E8C5EEBBAB5752EF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B4004E88B5A66791F21EC2A39A1CFBF4 /* ExtensibleEnumeratedName */,
-				32FE613586A8FF749565FD0E26DC48FF /* WolfNumerics */,
-				62DF5405079E190D3B995FE8A0B9C7BC /* WolfPipe */,
-				2619A1C07B104A0C849B60997C068127 /* WolfStrings */,
+				117B92EFCDB6938A69C04A4AD61890CD /* LICENSE */,
+				B7FEE66F548755F90BFBCDD6A17DD8F2 /* README.md */,
+				E31813F172E929528E44C424467037A9 /* WolfStrings.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0EC8EE494A5F7F9E2FEDCD87A4B5D12 /* WolfNumerics */ = {
+			isa = PBXGroup;
+			children = (
+				171400E779CFCE9C68FDB19F382ABD14 /* ApproximatelyEqualsOperator.swift */,
+				F9983FEE81AE3B8B9F4E226AD8AB7987 /* BinarySearch.swift */,
+				B9DBAF13E723C21A4FE1327DDAE4E761 /* Frac.swift */,
+				27CD186CDED71E01183E9F547960DBAD /* Interpolable.swift */,
+				A430D79138C2D54CE322031DB87CC270 /* Interval.swift */,
+				B48E36500AA37F1BA47B01A1D5C257E1 /* IntervalCreationOperator.swift */,
+				FDB436810EEBAA5FC85181921102CFB8 /* Lerp.swift */,
+				1617ACE8C3A70AE5B63C30FBD14D1298 /* NumericUtils.swift */,
+				6D332AF96C17F112ACABE1FB2C874F75 /* PercentOperator.swift */,
+				A7AD563DDE6D18853F662E3C596B3B30 /* Random.swift */,
+				B72AA39DB617C0B1FC993FA608817E25 /* RangeExtensions.swift */,
+				69F6F34A32CA4E83889E89318A46B66D /* RunningAverage.swift */,
+				91097206226DE166BC86DD69B1681332 /* Support Files */,
+			);
+			path = WolfNumerics;
 			sourceTree = "<group>";
 		};
 		D7F641CF62E975DEF774F19CA69D0723 /* Products */ = {
@@ -504,28 +480,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DEAA867E4760EA07EE27EDE4DE8B01BB /* Support Files */ = {
+		F58EA5CE104A5FDE7D6A0D82A17156C1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F17005275643B5AE8774937E50BA2E06 /* WolfNumerics.modulemap */,
-				5B53D6AE14D8FAF489137D93822E0419 /* WolfNumerics.xcconfig */,
-				331AA1DE5C54299682CD2E16C88DF700 /* WolfNumerics-dummy.m */,
-				F67CF7B06B88970846E5CAF8143211DA /* WolfNumerics-Info.plist */,
-				9F56D4A69C85F05C5AF63A7DEFF8D700 /* WolfNumerics-prefix.pch */,
-				915D21D3C8CAE86EFE3B309FE4EF8759 /* WolfNumerics-umbrella.h */,
+				9E686F69FC8948028FFDA47439DC88B5 /* ExtensibleEnumeratedName */,
+				C0EC8EE494A5F7F9E2FEDCD87A4B5D12 /* WolfNumerics */,
+				F5E184CF38FFB79F07ADDED2F99E359B /* WolfPipe */,
 			);
-			name = "Support Files";
-			path = "../WolfStrings/Example/Pods/Target Support Files/WolfNumerics";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		F841C7037B7E42BA013EB285375D7194 /* Pod */ = {
+		F5E184CF38FFB79F07ADDED2F99E359B /* WolfPipe */ = {
 			isa = PBXGroup;
 			children = (
-				D51F71F0320E81887A0CA9C14040DB09 /* ExtensibleEnumeratedName.podspec */,
-				90536159B568EA020BDBF128C7EE85D2 /* LICENSE */,
-				943440CF9F406222A4D6D68972530C0A /* README.md */,
+				7ABE577D4B39ED4861A55C9F5DF093B3 /* PipeCompatibleFunctions.swift */,
+				055E34375C0876064C307E728EE0A38F /* PipeOperator.swift */,
+				B5684394B95DB0D90F6254E2497DFE2F /* Support Files */,
 			);
-			name = Pod;
+			path = WolfPipe;
 			sourceTree = "<group>";
 		};
 		FEC5036B9CD868EBB11AFC5C39C48FEF /* Pods-WolfStrings_Example */ = {
@@ -626,7 +598,7 @@
 			buildConfigurationList = CBB5A4E849B628DD5A2F7C161647644F /* Build configuration list for PBXNativeTarget "WolfNumerics" */;
 			buildPhases = (
 				48EE5B474299BA63366AB9F48C79AABB /* Headers */,
-				B0CE8911033EE41BB86BC98A27D0299C /* Sources */,
+				824021FD5E3C744AEE2D6771B1779D79 /* Sources */,
 				B62236C194623B95A0E48535349D542F /* Frameworks */,
 				6B9F1F684B17C555A44503ABEE1E87E9 /* Resources */,
 			);
@@ -644,7 +616,7 @@
 			buildConfigurationList = EFEAB3BB5443207DED3A730F64ABAA43 /* Build configuration list for PBXNativeTarget "WolfStrings" */;
 			buildPhases = (
 				F767058A93FF14919F4A310D6408F18C /* Headers */,
-				3451992AD97BC99A107C93C285EBE760 /* Sources */,
+				80B5B44C8E76DAC9AD41BE33D0B9C875 /* Sources */,
 				389F27A55FB1E62F2593DA0CD9417410 /* Frameworks */,
 				A681DAFC3BEF0471A39D0CC7B308E6AA /* Resources */,
 			);
@@ -722,7 +694,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1000;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -792,32 +764,53 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3451992AD97BC99A107C93C285EBE760 /* Sources */ = {
+		80B5B44C8E76DAC9AD41BE33D0B9C875 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CDFB61AA6544C34580D113EA6679E03 /* AttributedString.swift in Sources */,
-				BDC1492577E8D763EAD6F47153303B87 /* AttributedStringExtensions.swift in Sources */,
-				6C4185244080C2CA8B5A8EE0D2033AA9 /* AttributedStringOperator.swift in Sources */,
-				094A37DD4638B688C1591D92660AAC26 /* AttributedSubstring.swift in Sources */,
-				2533F0A3E039B71A6C3BA23D2C7DB2E9 /* AttributedSubstringExtensions.swift in Sources */,
-				6C57CF143C47351EF5712A412FE4BB33 /* CreateRegularExpressionOperator.swift in Sources */,
-				B00F001E27EC2B4EE08F16B5D804A8AC /* Hex.swift in Sources */,
-				AC1F226FD5F7D2E4EB1B6BA68425D057 /* Joiner.swift in Sources */,
-				4D2207C945A0269601844F2DA2452914 /* MatchRegularExpressionOperator.swift in Sources */,
-				5EDC0901905C453AE086F7F81A7C519B /* ObjectAliaser.swift in Sources */,
-				7579C0B3D3BED8DCBC37B7E9EA549C10 /* RegularExpressionExtensions.swift in Sources */,
-				5FD3647B2A8925FCDE31B56B0F98563B /* StringExtensions.swift in Sources */,
-				807F9AF6CDF5D72198A01834FFC56796 /* StringFloatPrecision.swift in Sources */,
-				D53176F4976E151E0C43C3C364337C32 /* StringIndexesAndRanges.swift in Sources */,
-				56138EFBC133BEC3EC1E134170030985 /* StringReplacement.swift in Sources */,
-				437160A5DC6E1AC19983200D0239A023 /* StringTransformations.swift in Sources */,
-				BC37DC03DABAB9A97D32338B438C3C67 /* TextAlignment.swift in Sources */,
-				68A006396C6BA5FBF337A63F538A066F /* TextCheckingResult.swift in Sources */,
-				76B600AD36D01F57BA5B3447D0052265 /* TextCheckingResultExtensions.swift in Sources */,
-				21AEC7978498EE17416C1DFF2A63C2D2 /* UTF8.swift in Sources */,
-				A3C74A86044B811B846C6D195194C139 /* WolfStrings-dummy.m in Sources */,
-				B38B192BDAE3291A1C2E5F3B56D7B6ED /* WolfStringsError.swift in Sources */,
+				4DEFF95473B9207CD5B156D28DA0449D /* AttributedString.swift in Sources */,
+				AD72F5E4C290327BD5BB26DE1A715BEE /* AttributedStringExtensions.swift in Sources */,
+				6DBE81A0700AFB3F7383778EFFE65824 /* AttributedStringOperator.swift in Sources */,
+				9C812268ED9E7C46140CEE51AFE2FCE7 /* AttributedSubstring.swift in Sources */,
+				F660DF5AAA7AFE4980EBDE1D78AB32BB /* AttributedSubstringExtensions.swift in Sources */,
+				3BF420A9A5560307E56AEDF50BF5A583 /* CreateRegularExpressionOperator.swift in Sources */,
+				65FD09638453FDD02311F6AD73A7ECE0 /* Hex.swift in Sources */,
+				E3F8C935B8FAD1AFCCD6881479DA8265 /* Joiner.swift in Sources */,
+				0E9150ED39FAF4B93AEB0D8B502C2D48 /* MatchRegularExpressionOperator.swift in Sources */,
+				1165BC45537B28ED78C08361BF333A12 /* ObjectAliaser.swift in Sources */,
+				03DCCA608B99291E6058F4B8C9AE157C /* RegularExpressionExtensions.swift in Sources */,
+				EEE0D10B93D8D8BF3E4769051D3F8B06 /* SequenceExtensions.swift in Sources */,
+				8E859143E1F0839D33778269C7E15785 /* StringExtensions.swift in Sources */,
+				B94911E81018411073E69259A0336FDD /* StringFloatPrecision.swift in Sources */,
+				012B5D5063C34331D66D2B52EC489762 /* StringIndexesAndRanges.swift in Sources */,
+				9EAFE0B9D2F4ECE14B82DE119FDD57C9 /* StringReplacement.swift in Sources */,
+				A77FD52AA348BA0EAD1B320D2D7FB9B6 /* StringTransformations.swift in Sources */,
+				5076BE7A57B0CEAE39EF6E69DF7D42EE /* TextAlignment.swift in Sources */,
+				C4A7ADEFDF1417BF6B8FC487EE251D85 /* TextCheckingResult.swift in Sources */,
+				A5CFBA1F1646055E2B2BF37525951536 /* TextCheckingResultExtensions.swift in Sources */,
+				A492CA197AFCD9F347AE14268FBC3AC5 /* UTF8.swift in Sources */,
+				E87116393717FA87C2885173A6C73ECB /* WolfStrings-dummy.m in Sources */,
+				69EB2A3E70A8E279611CC2D594915496 /* WolfStringsError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		824021FD5E3C744AEE2D6771B1779D79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF249B235EDB27A83D89415E65C70984 /* ApproximatelyEqualsOperator.swift in Sources */,
+				3567BA19A854FA25518208BC7EC3CE25 /* BinarySearch.swift in Sources */,
+				C3AA4C8F0D884DBD4502D26AC1A5D69C /* Frac.swift in Sources */,
+				9504F6EEFE515F89C5ED100A77157286 /* Interpolable.swift in Sources */,
+				0AD9CC4B1911DA1BE9176ABEC0207EBA /* Interval.swift in Sources */,
+				FFE733712B4B5C2585A6FE0652E6A7AA /* IntervalCreationOperator.swift in Sources */,
+				9941F18B4E2C37593A752E1BBA2C198E /* Lerp.swift in Sources */,
+				548CFA8DC2FA7B1E8060E2CF1C014060 /* NumericUtils.swift in Sources */,
+				CB0D17B5B8975E837D772019C514D10A /* PercentOperator.swift in Sources */,
+				B46118FC7FCD17D34E44F9ABBF7A508E /* Random.swift in Sources */,
+				7AFA88682155DCF06A31E8C3520685DC /* RangeExtensions.swift in Sources */,
+				1CB6EEDC3067F8A733D9290FE0486221 /* RunningAverage.swift in Sources */,
+				ACC5D8448D93AAECD5D6C03D935D3FCF /* WolfNumerics-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -837,24 +830,6 @@
 				36900FDA55864C8A1934BCF0B5720D47 /* PipeCompatibleFunctions.swift in Sources */,
 				C480B2CBB273801A648E7F7E8DC5155F /* PipeOperator.swift in Sources */,
 				0CA29A533132485B8BA4A9CA54C49C39 /* WolfPipe-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B0CE8911033EE41BB86BC98A27D0299C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F242537C6515B30C7D75023CFA8DA61C /* BinarySearch.swift in Sources */,
-				F5F638F985102D56C099B07208509DBD /* Frac.swift in Sources */,
-				50CF5D32C395051D6587DB2F8EC5CF60 /* Interpolable.swift in Sources */,
-				C3B72BA0A85C97E5183F8131A1F42730 /* Interval.swift in Sources */,
-				EC17D19B68FB3B30B4D54E9EF716E97F /* IntervalCreationOperator.swift in Sources */,
-				FD6B1CB8407BC2EB1B8F48783876A7A0 /* Lerp.swift in Sources */,
-				952A9D10F273D7334EB63DDF841E7AD1 /* NumericUtils.swift in Sources */,
-				6902582C52237D55932DACCD2A095DFA /* Random.swift in Sources */,
-				81A2BE3BE2C79324A907446CEC76BFF8 /* RangeExtensions.swift in Sources */,
-				B4F010593DDBE3C3D6903F00335C98D4 /* RunningAverage.swift in Sources */,
-				F90854F5CE744DE217F46D8B36EB9A92 /* WolfNumerics-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -930,9 +905,8 @@
 /* Begin XCBuildConfiguration section */
 		03919ACA60225CE6C05196B4E5A18C5E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E75F68E5EC645D6A1C9BDEAE1CADD21 /* WolfPipe.xcconfig */;
+			baseConfigurationReference = 03D3EFD4A6A8F3247F4E2184E66C1EF7 /* WolfPipe.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -967,7 +941,6 @@
 			baseConfigurationReference = B2284C665F3FA753697DCA4384D73CBB /* Pods-WolfStrings_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1004,7 +977,6 @@
 			baseConfigurationReference = 173423255231A28609B11C5F2AD3D6D3 /* Pods-WolfStrings_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1037,9 +1009,8 @@
 		};
 		4005ABD8ECA178A23FFA1FA9271F9592 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B53D6AE14D8FAF489137D93822E0419 /* WolfNumerics.xcconfig */;
+			baseConfigurationReference = 8104D9C2F0FE44CE9ABF185CF09C6DBE /* WolfNumerics.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1124,15 +1095,49 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5EBA87198D1AB2C3D08A8F1F7146665A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E172C4CBB473C47F6F09DB9DEEDBFDA /* WolfStrings.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WolfStrings/WolfStrings-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WolfStrings/WolfStrings-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WolfStrings/WolfStrings.modulemap";
+				PRODUCT_MODULE_NAME = WolfStrings;
+				PRODUCT_NAME = WolfStrings;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 		71372AB021A0B380B4A7CF83B7ED09DD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 511FF025F64C384539487EC2BD2E21E1 /* ExtensibleEnumeratedName.xcconfig */;
+			baseConfigurationReference = 253ECFBD1DBDB075AEBC00E38AC3E47F /* ExtensibleEnumeratedName.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1231,7 +1236,6 @@
 			baseConfigurationReference = 2DEAF2BD7F0A0A2557F46782CA2503D0 /* Pods-WolfStrings_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1255,8 +1259,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1264,11 +1267,10 @@
 			};
 			name = Release;
 		};
-		A7F953760948E9634C641C605025A804 /* Debug */ = {
+		C320EE72AE82D0F1D110126FE3D0ED22 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5E38D20AF82DACD7D3E0D4EF979A72C /* WolfStrings.xcconfig */;
+			baseConfigurationReference = 3E172C4CBB473C47F6F09DB9DEEDBFDA /* WolfStrings.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1282,7 +1284,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/WolfStrings/WolfStrings-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/WolfStrings/WolfStrings-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/WolfStrings/WolfStrings.modulemap";
 				PRODUCT_MODULE_NAME = WolfStrings;
@@ -1298,47 +1300,10 @@
 			};
 			name = Debug;
 		};
-		C030D87318849B66EF5C35BD016D6D79 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5E38D20AF82DACD7D3E0D4EF979A72C /* WolfStrings.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WolfStrings/WolfStrings-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WolfStrings/WolfStrings-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WolfStrings/WolfStrings.modulemap";
-				PRODUCT_MODULE_NAME = WolfStrings;
-				PRODUCT_NAME = WolfStrings;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		CF13C203BECD3D24B2A28BD7CEAC4D6B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 511FF025F64C384539487EC2BD2E21E1 /* ExtensibleEnumeratedName.xcconfig */;
+			baseConfigurationReference = 253ECFBD1DBDB075AEBC00E38AC3E47F /* ExtensibleEnumeratedName.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1360,8 +1325,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1372,9 +1336,8 @@
 		};
 		E54BB3994533FB96A1B6E52EC63B56E7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B53D6AE14D8FAF489137D93822E0419 /* WolfNumerics.xcconfig */;
+			baseConfigurationReference = 8104D9C2F0FE44CE9ABF185CF09C6DBE /* WolfNumerics.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1396,8 +1359,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1411,7 +1373,6 @@
 			baseConfigurationReference = FE0278590F87CFD42A76610D944EABFE /* Pods-WolfStrings_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1443,9 +1404,8 @@
 		};
 		FE4ACA81F06E7C5BC78B27ADFB935CF1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E75F68E5EC645D6A1C9BDEAE1CADD21 /* WolfPipe.xcconfig */;
+			baseConfigurationReference = 03D3EFD4A6A8F3247F4E2184E66C1EF7 /* WolfPipe.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1467,8 +1427,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1537,8 +1496,8 @@
 		EFEAB3BB5443207DED3A730F64ABAA43 /* Build configuration list for PBXNativeTarget "WolfStrings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A7F953760948E9634C641C605025A804 /* Debug */,
-				C030D87318849B66EF5C35BD016D6D79 /* Release */,
+				C320EE72AE82D0F1D110126FE3D0ED22 /* Debug */,
+				5EBA87198D1AB2C3D08A8F1F7146665A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

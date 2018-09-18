@@ -1,7 +1,7 @@
 {
   "name": "WolfStrings",
-  "version": "0.1.0",
-  "summary": "TODO: Summary",
+  "version": "1.0.0",
+  "summary": "A library of conveniences for working with Swift strings and NSAttributed strings.",
   "homepage": "https://github.com/wolfmcnally/WolfStrings",
   "license": {
     "type": "MIT",
@@ -12,12 +12,12 @@
   },
   "source": {
     "git": "https://github.com/wolfmcnally/WolfStrings.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "source_files": "WolfStrings/Classes/**/*",
   "swift_version": "4.2",
   "platforms": {
-    "ios": "11.0",
+    "ios": "10.0",
     "osx": "10.13",
     "tvos": "11.0"
   },

@@ -3,7 +3,6 @@
 //  WolfStrings
 //
 //  Created by Wolf McNally on 5/18/16.
-//  Copyright © 2016 Wolf McNally
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
