@@ -101,3 +101,9 @@ extension String {
         return indentation + indentedLines
     }
 }
+
+// MARK: - Free functions
+
+public func trim(_ string: String) -> String {
+    return string.trimmed()
+}
