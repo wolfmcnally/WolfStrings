@@ -25,22 +25,22 @@
 import Foundation
 
 extension TextCheckingResult {
-    public func range(atIndex index: Int, inString string: String) -> StringRange {
+    public func stringRange(at index: Int, in string: String) -> StringRange {
         return string.stringRange(from: range(at: index))!
     }
 
-    public func captureRanges(inString string: String) -> [StringRange] {
+    public func captureRanges(in string: String) -> [StringRange] {
         var result = [StringRange]()
         for i in 1 ..< numberOfRanges {
-            result.append(range(atIndex: i, inString: string))
+            result.append(stringRange(at: i, in: string))
         }
         return result
     }
 }
 
 extension TextCheckingResult {
-    public func get(atIndex index: Int, inString string: String) -> RangeReplacement {
-        let range = self.range(atIndex: index, inString: string)
+    public func get(at index: Int, in string: String) -> RangeReplacement {
+        let range = self.stringRange(at: index, in: string)
         let text = String(string[range])
         return (range, text)
     }

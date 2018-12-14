@@ -71,7 +71,7 @@ extension String {
 extension String {
     public func replacing(matchesTo regex: NSRegularExpression, usingBlock block: (RangeReplacement) -> String) -> (string: String, ranges: [StringRange]) {
         let results = (regex ~?? self).map { match -> RangeReplacement in
-            let matchRange = match.range(atIndex: 0, inString: self)
+            let matchRange = match.stringRange(at: 0, in: self)
             let substring = String(self[matchRange])
             let replacement = block((matchRange, substring))
             return (matchRange, replacement)

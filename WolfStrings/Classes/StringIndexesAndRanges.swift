@@ -25,8 +25,6 @@
 import Foundation
 import WolfNumerics
 
-// KLUDGE: These are causing compiler crashes under Swift 3.1.
-//
 public typealias StringIndex = String.Index
 public typealias StringRange = Range<StringIndex>
 public typealias RangeReplacement = (StringRange, String)

@@ -59,7 +59,7 @@ import Foundation
             var result: [String]! = nil
             if let textCheckingResult = self.firstMatch(inString: string, options: options, range: range) {
                 result = [String]()
-                for range in textCheckingResult.captureRanges(inString: string) {
+                for range in textCheckingResult.captureRanges(in: string) {
                     let matchText = String(string[range])
                     result.append(matchText)
                 }

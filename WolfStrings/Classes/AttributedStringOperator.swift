@@ -39,21 +39,23 @@ public postfix func § (left: AttributedString) -> AttributedString {
     return left.mutableCopy() as! AttributedString
 }
 
-public postfix func § (left: String?) -> AttributedString? {
-    guard let left = left else { return nil }
-    return AttributedString(string: left)
-}
-
-public postfix func § (left: AttributedString?) -> AttributedString? {
-    guard let left = left else { return nil }
-    return left.mutableCopy() as? AttributedString
-}
-
 public postfix func § (left: NSAttributedString) -> AttributedString {
     return left.mutableCopy() as! AttributedString
 }
 
-public postfix func § (left: NSAttributedString?) -> AttributedString? {
+postfix operator §?
+
+public postfix func §? (left: String?) -> AttributedString? {
+    guard let left = left else { return nil }
+    return AttributedString(string: left)
+}
+
+public postfix func §? (left: AttributedString?) -> AttributedString? {
+    guard let left = left else { return nil }
+    return left.mutableCopy() as? AttributedString
+}
+
+public postfix func §? (left: NSAttributedString?) -> AttributedString? {
     guard let left = left else { return nil }
     return left.mutableCopy() as? AttributedString
 }
