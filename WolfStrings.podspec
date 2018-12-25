@@ -25,4 +25,5 @@ Pod::Spec.new do |s|
     s.dependency 'WolfPipe'
     s.dependency 'WolfNumerics'
     s.dependency 'ExtensibleEnumeratedName'
+    s.dependency 'WolfWith'
 end
