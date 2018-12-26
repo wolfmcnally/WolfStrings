@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'WolfStrings'
-    s.version          = '1.2'
+    s.version          = '1.2.1'
     s.summary          = 'A library of conveniences for working with Swift strings and NSAttributed strings.'
 
     # s.description      = <<-DESC
@@ -26,4 +26,5 @@ Pod::Spec.new do |s|
     s.dependency 'WolfNumerics'
     s.dependency 'ExtensibleEnumeratedName'
     s.dependency 'WolfWith'
+    s.dependency 'WolfOSBridge'
 end

@@ -23,6 +23,7 @@
 //  SOFTWARE.
 
 import WolfPipe
+import WolfOSBridge
 
 public typealias AttributedString = NSMutableAttributedString
 public typealias StringAttributes = [NSAttributedString.Key: Any]
@@ -51,7 +52,7 @@ public func withItalic(_ string: AttributedString?) -> AttributedString? {
     return string
 }
 
-public func withForegroundColor(_ color: UIColor) -> (_ string: AttributedString?) -> AttributedString? {
+public func withForegroundColor(_ color: OSColor) -> (_ string: AttributedString?) -> AttributedString? {
     return { string in
         guard let string = string else { return nil }
         string.foregroundColor = color
