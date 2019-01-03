@@ -56,6 +56,7 @@ extension AttributedString {
     }
 
     public func attribute(_ name: NSAttributedString.Key, at index: StringIndex, in rangeLimit: StringRange? = nil) -> Any? {
+        guard !string.isEmpty else { return nil }
         let nsLocation = string.nsLocation(fromIndex: index)
         let nsRangeLimit = string.nsRange(from: rangeLimit) ?? string.nsRange
         let attr = attribute(name, at: nsLocation, longestEffectiveRange: nil, in: nsRangeLimit)

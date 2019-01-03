@@ -24,7 +24,6 @@
 
 import CoreText
 import WolfWith
-//import WolfImage
 
 public class TypeRun {
     private let ctRun: CTRun
@@ -52,16 +51,16 @@ public class TypeRun {
         return CGFloat(CTRunGetTypographicBounds(ctRun, cfRange, nil, nil, nil))
     }
 
-//    public func draw(into context: CGContext, range: Range<Int>, at point: CGPoint? = nil) {
-//        drawInto(context) { context in
-//            let cfRange = CFRange(range: range)
-//            CTRunDraw(ctRun, context, cfRange)
-//        }
-//    }
+    public func draw(into context: CGContext, range: Range<Int>, at point: CGPoint? = nil) {
+        context.saveGState()
+        let cfRange = CFRange(range: range)
+        CTRunDraw(ctRun, context, cfRange)
+        context.restoreGState()
+    }
 
-//    public func draw(into context: CGContext, index: Int, at point: CGPoint? = nil) {
-//        draw(into: context, range: index ..< (index + 1), at: point)
-//    }
+    public func draw(into context: CGContext, index: Int, at point: CGPoint? = nil) {
+        draw(into: context, range: index ..< (index + 1), at: point)
+    }
 
     public var textMatrix: CGAffineTransform {
         return CTRunGetTextMatrix(ctRun)
