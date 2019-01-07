@@ -24,6 +24,8 @@
 
 import WolfPipe
 import WolfOSBridge
+import Foundation
+import CoreGraphics
 
 public typealias AttributedString = NSMutableAttributedString
 public typealias StringAttributes = [NSAttributedString.Key: Any]

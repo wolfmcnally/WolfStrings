@@ -1,0 +1,52 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ExtensibleEnumeratedName",
+        "repositoryURL": "https://github.com/wolfmcnally/ExtensibleEnumeratedName",
+        "state": {
+          "branch": null,
+          "revision": "023f83ce151751c96e964862ed22784639517aa0",
+          "version": "1.0.4"
+        }
+      },
+      {
+        "package": "WolfNumerics",
+        "repositoryURL": "https://github.com/wolfmcnally/WolfNumerics",
+        "state": {
+          "branch": null,
+          "revision": "60752d0dfca058ee2f84f4d254069196b2b975e7",
+          "version": "3.0.2"
+        }
+      },
+      {
+        "package": "WolfOSBridge",
+        "repositoryURL": "https://github.com/wolfmcnally/WolfOSBridge",
+        "state": {
+          "branch": null,
+          "revision": "c615963d3d0cfe7c6cbc98bc7389c2d17b8bbd4c",
+          "version": "1.1.1"
+        }
+      },
+      {
+        "package": "WolfPipe",
+        "repositoryURL": "https://github.com/wolfmcnally/WolfPipe",
+        "state": {
+          "branch": null,
+          "revision": "327eb418ae978c3ca3a5bcb81652e38a8c29c7ac",
+          "version": "1.1.2"
+        }
+      },
+      {
+        "package": "WolfWith",
+        "repositoryURL": "https://github.com/wolfmcnally/WolfWith",
+        "state": {
+          "branch": null,
+          "revision": "0ccbb2ce585daed021b4c300635199a5caf4f256",
+          "version": "1.0.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -209,12 +209,14 @@ extension AttributedString {
 #if !os(Linux)
 
 extension NSAttributedString {
+    @available(macOS 10.11, *)
     public func height(forWidth width: CGFloat, context: NSStringDrawingContext? = nil) -> CGFloat {
         let maxBounds = CGSize(width: width, height: .greatestFiniteMagnitude)
         let bounds = boundingRect(with: maxBounds, options: [.usesLineFragmentOrigin], context: context)
         return ceil(bounds.height)
     }
 
+    @available(macOS 10.11, *)
     public func width(forHeight height: CGFloat, context: NSStringDrawingContext? = nil) -> CGFloat {
         let maxBounds = CGSize(width: .greatestFiniteMagnitude, height: height)
         let bounds = boundingRect(with: maxBounds, options: [.usesLineFragmentOrigin], context: context)
