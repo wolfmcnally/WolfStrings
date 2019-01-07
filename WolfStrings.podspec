@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     s.author           = { 'Wolf McNally' => 'wolf@wolfmcnally.com' }
     s.source           = { :git => 'https://github.com/wolfmcnally/WolfStrings.git', :tag => s.version.to_s }
 
-    s.source_files = 'WolfStrings/Classes/**/*'
+    s.source_files = 'Sources/WolfStrings/**/*'
 
     s.swift_version = '4.2'
 
