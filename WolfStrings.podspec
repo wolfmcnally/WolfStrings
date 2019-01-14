@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'WolfStrings'
-    s.version          = '1.2.3'
+    s.version          = '1.3.0'
     s.summary          = 'A library of conveniences for working with Swift strings and NSAttributed strings.'
 
     # s.description      = <<-DESC

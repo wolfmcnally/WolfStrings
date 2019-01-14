@@ -22,6 +22,9 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
+import WolfPipe
+import Foundation
+
 public class Joiner {
     var left: String
     var right: String
@@ -45,10 +48,8 @@ public class Joiner {
             objs.append(element)
         }
     }
-}
 
-extension Joiner: CustomStringConvertible {
-    public var description: String {
+    public var result: String {
         var s = [String]()
         for o in objs {
             s.append("\(o)")
@@ -57,3 +58,57 @@ extension Joiner: CustomStringConvertible {
         return "\(left)\(t)\(right)"
     }
 }
+
+extension Joiner: CustomStringConvertible {
+    public var description: String {
+        return result
+    }
+}
+
+public class AttributedJoiner {
+    private typealias `Self` = AttributedJoiner
+
+    var left: NSAttributedString?
+    var right: NSAttributedString?
+    var separator: NSAttributedString?
+    var strings = [NSAttributedString]()
+    var count: Int { return strings.count }
+    public var isEmpty: Bool { return strings.isEmpty }
+
+    public init(left: NSAttributedString? = nil, separator: NSAttributedString? = nil, right: NSAttributedString? = nil) {
+        self.left = left
+        self.right = right
+        self.separator = separator
+    }
+
+    public func append(_ strings: NSAttributedString?...) {
+        for string in strings {
+            guard let string = string else { continue }
+            self.strings.append(string)
+        }
+    }
+
+    public func append<S: Sequence>(contentsOf newElements: S) where S.Element: NSAttributedString {
+        for element in newElements {
+            strings.append(element)
+        }
+    }
+
+    public var result: AttributedString {
+        let s = AttributedString()
+        if let left = left {
+            s.append(left)
+        }
+        for (index, string) in strings.enumerated() {
+            if let separator = separator, index > 0 {
+                s.append(separator)
+            }
+            s.append(string)
+        }
+        if let right = right {
+            s.append(right)
+        }
+        return s
+    }
+}
+

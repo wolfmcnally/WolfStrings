@@ -59,3 +59,7 @@ public postfix func §? (left: NSAttributedString?) -> AttributedString? {
     guard let left = left else { return nil }
     return left.mutableCopy() as? AttributedString
 }
+
+public func toAttributedString(_ string: String) -> AttributedString {
+    return AttributedString(string: string)
+}

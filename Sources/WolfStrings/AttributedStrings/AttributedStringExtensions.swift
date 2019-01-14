@@ -259,3 +259,16 @@ extension AttributedString {
 }
 
 #endif
+
+public func append(_ rhs: AttributedString?) -> (_ lhs: AttributedString?) -> AttributedString? {
+    return { lhs in
+        guard let lhs = lhs else {
+            return rhs?.mutableCopy() as? AttributedString
+        }
+        guard let rhs = rhs else {
+            return lhs
+        }
+        lhs.append(rhs)
+        return lhs
+    }
+}
