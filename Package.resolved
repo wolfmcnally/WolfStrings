@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/wolfmcnally/ExtensibleEnumeratedName",
         "state": {
           "branch": null,
-          "revision": "023f83ce151751c96e964862ed22784639517aa0",
-          "version": "1.0.4"
+          "revision": "8406ea55b2c757a85f226a831b0dc36f28d2af01",
+          "version": "2.0.0"
         }
       },
       {
@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/wolfmcnally/WolfNumerics",
         "state": {
           "branch": null,
-          "revision": "60752d0dfca058ee2f84f4d254069196b2b975e7",
-          "version": "3.0.2"
+          "revision": "fe64757d75bf2a286444e1fc2c7bf297a7a1e3d6",
+          "version": "4.0.0"
         }
       },
       {
@@ -24,8 +24,8 @@
         "repositoryURL": "https://github.com/wolfmcnally/WolfOSBridge",
         "state": {
           "branch": null,
-          "revision": "c615963d3d0cfe7c6cbc98bc7389c2d17b8bbd4c",
-          "version": "1.1.1"
+          "revision": "fc8896c8664d6bc53fdbfdd546b8a72e0c47fafa",
+          "version": "2.0.0"
         }
       },
       {
@@ -33,8 +33,8 @@
         "repositoryURL": "https://github.com/wolfmcnally/WolfPipe",
         "state": {
           "branch": null,
-          "revision": "327eb418ae978c3ca3a5bcb81652e38a8c29c7ac",
-          "version": "1.1.2"
+          "revision": "a7dc75088089fdb6115ab275738a37d8d79a831e",
+          "version": "2.0.0"
         }
       },
       {
@@ -42,8 +42,8 @@
         "repositoryURL": "https://github.com/wolfmcnally/WolfWith",
         "state": {
           "branch": null,
-          "revision": "0ccbb2ce585daed021b4c300635199a5caf4f256",
-          "version": "1.0.3"
+          "revision": "b8fc5b2b422c193b8ce88260e006c27a7bc0a282",
+          "version": "2.0.1"
         }
       }
     ]
