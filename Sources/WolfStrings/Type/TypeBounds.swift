@@ -22,6 +22,7 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
+#if canImport(CoreGraphics)
 import CoreGraphics
 
 public struct TypeBounds {
@@ -31,3 +32,4 @@ public struct TypeBounds {
     public let leading: CGFloat
     public let height: CGFloat
 }
+#endif

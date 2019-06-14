@@ -25,7 +25,9 @@
 import WolfPipe
 import WolfOSBridge
 import Foundation
+#if canImport(CoreGraphics)
 import CoreGraphics
+#endif
 
 public typealias AttributedString = NSMutableAttributedString
 public typealias StringAttributes = [NSAttributedString.Key: Any]
@@ -34,6 +36,7 @@ public func += (left: AttributedString, right: NSAttributedString) {
     left.append(right)
 }
 
+#if canImport(CoreGraphics)
 public func withPointSize(_ pointSize: CGFloat) -> (_ string: AttributedString?) -> AttributedString? {
     return { string in
         guard let string = string else { return nil }
@@ -41,6 +44,7 @@ public func withPointSize(_ pointSize: CGFloat) -> (_ string: AttributedString?)
         return string
     }
 }
+#endif
 
 public func withBold(_ string: AttributedString?) -> AttributedString? {
     guard let string = string else { return nil }

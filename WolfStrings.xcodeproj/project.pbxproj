@@ -5,10 +5,10 @@
    objects = {
       "ExtensibleEnumeratedName::ExtensibleEnumeratedName" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_92";
+         buildConfigurationList = "OBJ_95";
          buildPhases = (
-            "OBJ_95",
-            "OBJ_97"
+            "OBJ_98",
+            "OBJ_100"
          );
          dependencies = (
          );
@@ -24,9 +24,9 @@
       };
       "ExtensibleEnumeratedName::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_99";
+         buildConfigurationList = "OBJ_102";
          buildPhases = (
-            "OBJ_102"
+            "OBJ_105"
          );
          dependencies = (
          );
@@ -37,6 +37,7 @@
       "OBJ_1" = {
          isa = "PBXProject";
          attributes = {
+            LastSwiftMigration = "9999";
             LastUpgradeCheck = "9999";
          };
          buildConfigurationList = "OBJ_2";
@@ -70,98 +71,75 @@
          sourceTree = "<group>";
       };
       "OBJ_100" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4.2",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
-            );
-            SWIFT_VERSION = "4.2";
-         };
-         name = "Debug";
-      };
-      "OBJ_101" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4.2",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
-            );
-            SWIFT_VERSION = "4.2";
-         };
-         name = "Release";
-      };
-      "OBJ_102" = {
-         isa = "PBXSourcesBuildPhase";
+         isa = "PBXFrameworksBuildPhase";
          files = (
-            "OBJ_103"
          );
       };
-      "OBJ_103" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_48";
-      };
-      "OBJ_105" = {
+      "OBJ_102" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_106",
-            "OBJ_107"
+            "OBJ_103",
+            "OBJ_104"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_106" = {
+      "OBJ_103" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "WolfStrings.xcodeproj/WolfNumerics_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
+            LD = "/usr/bin/true";
             OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
             );
-            PRODUCT_BUNDLE_IDENTIFIER = "WolfNumerics";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "WolfNumerics";
+            SWIFT_VERSION = "5.0";
          };
          name = "Debug";
       };
-      "OBJ_107" = {
+      "OBJ_104" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Release";
+      };
+      "OBJ_105" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_106"
+         );
+      };
+      "OBJ_106" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_48";
+      };
+      "OBJ_108" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_109",
+            "OBJ_110"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_109" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             ENABLE_TESTABILITY = "YES";
@@ -173,10 +151,12 @@
                "$(inherited)"
             );
             INFOPLIST_FILE = "WolfStrings.xcodeproj/WolfNumerics_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
             );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
             OTHER_CFLAGS = (
                "$(inherited)"
             );
@@ -193,17 +173,62 @@
             SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
                "$(inherited)"
             );
-            SWIFT_VERSION = "4.2";
+            SWIFT_VERSION = "5.0";
             TARGET_NAME = "WolfNumerics";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_11" = {
+         isa = "PBXFileReference";
+         path = "AttributedStringExtensions.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_110" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "WolfStrings.xcodeproj/WolfNumerics_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "WolfNumerics";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "WolfNumerics";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
          };
          name = "Release";
       };
-      "OBJ_108" = {
+      "OBJ_111" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_109",
-            "OBJ_110",
-            "OBJ_111",
             "OBJ_112",
             "OBJ_113",
             "OBJ_114",
@@ -214,57 +239,43 @@
             "OBJ_119",
             "OBJ_120",
             "OBJ_121",
-            "OBJ_122"
+            "OBJ_122",
+            "OBJ_123",
+            "OBJ_124",
+            "OBJ_125"
          );
-      };
-      "OBJ_109" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_69";
-      };
-      "OBJ_11" = {
-         isa = "PBXFileReference";
-         path = "AttributedStringExtensions.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_110" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_70";
-      };
-      "OBJ_111" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_71";
       };
       "OBJ_112" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_72";
+         fileRef = "OBJ_69";
       };
       "OBJ_113" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_73";
+         fileRef = "OBJ_70";
       };
       "OBJ_114" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_74";
+         fileRef = "OBJ_71";
       };
       "OBJ_115" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_75";
+         fileRef = "OBJ_72";
       };
       "OBJ_116" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_76";
+         fileRef = "OBJ_73";
       };
       "OBJ_117" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_77";
+         fileRef = "OBJ_74";
       };
       "OBJ_118" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_78";
+         fileRef = "OBJ_75";
       };
       "OBJ_119" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_79";
+         fileRef = "OBJ_76";
       };
       "OBJ_12" = {
          isa = "PBXFileReference";
@@ -273,37 +284,49 @@
       };
       "OBJ_120" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_80";
+         fileRef = "OBJ_77";
       };
       "OBJ_121" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_81";
+         fileRef = "OBJ_78";
       };
       "OBJ_122" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_82";
+         fileRef = "OBJ_79";
       };
       "OBJ_123" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_80";
+      };
+      "OBJ_124" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_81";
+      };
+      "OBJ_125" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_82";
+      };
+      "OBJ_126" = {
          isa = "PBXFrameworksBuildPhase";
          files = (
          );
       };
-      "OBJ_125" = {
+      "OBJ_128" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_126",
-            "OBJ_127"
+            "OBJ_129",
+            "OBJ_130"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_126" = {
+      "OBJ_129" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             LD = "/usr/bin/true";
             OTHER_SWIFT_FLAGS = (
                "-swift-version",
-               "4.2",
+               "5",
                "-I",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
                "-target",
@@ -311,157 +334,22 @@
                "-sdk",
                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
             );
-            SWIFT_VERSION = "4.2";
+            SWIFT_VERSION = "5.0";
          };
          name = "Debug";
-      };
-      "OBJ_127" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4.2",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
-            );
-            SWIFT_VERSION = "4.2";
-         };
-         name = "Release";
-      };
-      "OBJ_128" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_129"
-         );
-      };
-      "OBJ_129" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_83";
       };
       "OBJ_13" = {
          isa = "PBXFileReference";
          path = "AttributedSubstring.swift";
          sourceTree = "<group>";
       };
-      "OBJ_131" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_132",
-            "OBJ_133"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_132" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "WolfStrings.xcodeproj/WolfOSBridge_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "WolfOSBridge";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "WolfOSBridge";
-         };
-         name = "Debug";
-      };
-      "OBJ_133" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "WolfStrings.xcodeproj/WolfOSBridge_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "WolfOSBridge";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "WolfOSBridge";
-         };
-         name = "Release";
-      };
-      "OBJ_134" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_135"
-         );
-      };
-      "OBJ_135" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_55";
-      };
-      "OBJ_136" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-         );
-      };
-      "OBJ_138" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_139",
-            "OBJ_140"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_139" = {
+      "OBJ_130" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             LD = "/usr/bin/true";
             OTHER_SWIFT_FLAGS = (
                "-swift-version",
-               "4.2",
+               "5",
                "-I",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
                "-target",
@@ -469,22 +357,147 @@
                "-sdk",
                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
             );
-            SWIFT_VERSION = "4.2";
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Release";
+      };
+      "OBJ_131" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_132"
+         );
+      };
+      "OBJ_132" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_83";
+      };
+      "OBJ_134" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_135",
+            "OBJ_136"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_135" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "WolfStrings.xcodeproj/WolfOSBridge_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "WolfOSBridge";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "WolfOSBridge";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
          };
          name = "Debug";
+      };
+      "OBJ_136" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "WolfStrings.xcodeproj/WolfOSBridge_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "WolfOSBridge";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "WolfOSBridge";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_137" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_138"
+         );
+      };
+      "OBJ_138" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_55";
+      };
+      "OBJ_139" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
       };
       "OBJ_14" = {
          isa = "PBXFileReference";
          path = "AttributedSubstringExtensions.swift";
          sourceTree = "<group>";
       };
-      "OBJ_140" = {
+      "OBJ_141" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_142",
+            "OBJ_143"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_142" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             LD = "/usr/bin/true";
             OTHER_SWIFT_FLAGS = (
                "-swift-version",
-               "4.2",
+               "5",
                "-I",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
                "-target",
@@ -492,30 +505,48 @@
                "-sdk",
                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
             );
-            SWIFT_VERSION = "4.2";
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_143" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "5.0";
          };
          name = "Release";
       };
-      "OBJ_141" = {
+      "OBJ_144" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_142"
+            "OBJ_145"
          );
       };
-      "OBJ_142" = {
+      "OBJ_145" = {
          isa = "PBXBuildFile";
          fileRef = "OBJ_56";
       };
-      "OBJ_144" = {
+      "OBJ_147" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_145",
-            "OBJ_146"
+            "OBJ_148",
+            "OBJ_149"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_145" = {
+      "OBJ_148" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             ENABLE_TESTABILITY = "YES";
@@ -527,10 +558,12 @@
                "$(inherited)"
             );
             INFOPLIST_FILE = "WolfStrings.xcodeproj/WolfPipe_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
             );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
             OTHER_CFLAGS = (
                "$(inherited)"
             );
@@ -547,12 +580,14 @@
             SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
                "$(inherited)"
             );
-            SWIFT_VERSION = "4.2";
+            SWIFT_VERSION = "5.0";
             TARGET_NAME = "WolfPipe";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
          };
          name = "Debug";
       };
-      "OBJ_146" = {
+      "OBJ_149" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             ENABLE_TESTABILITY = "YES";
@@ -564,10 +599,12 @@
                "$(inherited)"
             );
             INFOPLIST_FILE = "WolfStrings.xcodeproj/WolfPipe_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
             );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
             OTHER_CFLAGS = (
                "$(inherited)"
             );
@@ -584,30 +621,12 @@
             SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
                "$(inherited)"
             );
-            SWIFT_VERSION = "4.2";
+            SWIFT_VERSION = "5.0";
             TARGET_NAME = "WolfPipe";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
          };
          name = "Release";
-      };
-      "OBJ_147" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_148",
-            "OBJ_149",
-            "OBJ_150",
-            "OBJ_151",
-            "OBJ_152",
-            "OBJ_153",
-            "OBJ_154"
-         );
-      };
-      "OBJ_148" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_59";
-      };
-      "OBJ_149" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_60";
       };
       "OBJ_15" = {
          isa = "PBXFileReference";
@@ -615,74 +634,49 @@
          sourceTree = "<group>";
       };
       "OBJ_150" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_61";
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_151",
+            "OBJ_152",
+            "OBJ_153",
+            "OBJ_154",
+            "OBJ_155",
+            "OBJ_156",
+            "OBJ_157"
+         );
       };
       "OBJ_151" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_62";
+         fileRef = "OBJ_59";
       };
       "OBJ_152" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_63";
+         fileRef = "OBJ_60";
       };
       "OBJ_153" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_64";
+         fileRef = "OBJ_61";
       };
       "OBJ_154" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_65";
+         fileRef = "OBJ_62";
       };
       "OBJ_155" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_63";
+      };
+      "OBJ_156" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_64";
+      };
+      "OBJ_157" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_65";
+      };
+      "OBJ_158" = {
          isa = "PBXFrameworksBuildPhase";
          files = (
          );
-      };
-      "OBJ_157" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_158",
-            "OBJ_159"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_158" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4.2",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
-            );
-            SWIFT_VERSION = "4.2";
-         };
-         name = "Debug";
-      };
-      "OBJ_159" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4.2",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
-            );
-            SWIFT_VERSION = "4.2";
-         };
-         name = "Release";
       };
       "OBJ_16" = {
          isa = "PBXFileReference";
@@ -690,62 +684,70 @@
          sourceTree = "<group>";
       };
       "OBJ_160" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_161"
-         );
-      };
-      "OBJ_161" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_66";
-      };
-      "OBJ_163" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_164",
-            "OBJ_165"
+            "OBJ_161",
+            "OBJ_162"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_164" = {
+      "OBJ_161" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "WolfStrings.xcodeproj/WolfStrings_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
+            LD = "/usr/bin/true";
             OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
             );
-            PRODUCT_BUNDLE_IDENTIFIER = "WolfStrings";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "WolfStrings";
+            SWIFT_VERSION = "5.0";
          };
          name = "Debug";
       };
-      "OBJ_165" = {
+      "OBJ_162" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Release";
+      };
+      "OBJ_163" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_164"
+         );
+      };
+      "OBJ_164" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_66";
+      };
+      "OBJ_166" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_167",
+            "OBJ_168"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_167" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             ENABLE_TESTABILITY = "YES";
@@ -757,10 +759,12 @@
                "$(inherited)"
             );
             INFOPLIST_FILE = "WolfStrings.xcodeproj/WolfStrings_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
             );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
             OTHER_CFLAGS = (
                "$(inherited)"
             );
@@ -777,17 +781,57 @@
             SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
                "$(inherited)"
             );
-            SWIFT_VERSION = "4.2";
+            SWIFT_VERSION = "5.0";
             TARGET_NAME = "WolfStrings";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_168" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "WolfStrings.xcodeproj/WolfStrings_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "WolfStrings";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "WolfStrings";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
          };
          name = "Release";
       };
-      "OBJ_166" = {
+      "OBJ_169" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_167",
-            "OBJ_168",
-            "OBJ_169",
             "OBJ_170",
             "OBJ_171",
             "OBJ_172",
@@ -815,20 +859,11 @@
             "OBJ_194",
             "OBJ_195",
             "OBJ_196",
-            "OBJ_197"
+            "OBJ_197",
+            "OBJ_198",
+            "OBJ_199",
+            "OBJ_200"
          );
-      };
-      "OBJ_167" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_10";
-      };
-      "OBJ_168" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_11";
-      };
-      "OBJ_169" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_12";
       };
       "OBJ_17" = {
          isa = "PBXFileReference";
@@ -837,43 +872,43 @@
       };
       "OBJ_170" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_13";
+         fileRef = "OBJ_10";
       };
       "OBJ_171" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_14";
+         fileRef = "OBJ_11";
       };
       "OBJ_172" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_15";
+         fileRef = "OBJ_12";
       };
       "OBJ_173" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_16";
+         fileRef = "OBJ_13";
       };
       "OBJ_174" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_17";
+         fileRef = "OBJ_14";
       };
       "OBJ_175" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_19";
+         fileRef = "OBJ_15";
       };
       "OBJ_176" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_20";
+         fileRef = "OBJ_16";
       };
       "OBJ_177" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_21";
+         fileRef = "OBJ_17";
       };
       "OBJ_178" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_22";
+         fileRef = "OBJ_19";
       };
       "OBJ_179" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_23";
+         fileRef = "OBJ_20";
       };
       "OBJ_18" = {
          isa = "PBXGroup";
@@ -890,43 +925,43 @@
       };
       "OBJ_180" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_24";
+         fileRef = "OBJ_21";
       };
       "OBJ_181" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_25";
+         fileRef = "OBJ_22";
       };
       "OBJ_182" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_26";
+         fileRef = "OBJ_23";
       };
       "OBJ_183" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_27";
+         fileRef = "OBJ_24";
       };
       "OBJ_184" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_28";
+         fileRef = "OBJ_25";
       };
       "OBJ_185" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_29";
+         fileRef = "OBJ_26";
       };
       "OBJ_186" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_31";
+         fileRef = "OBJ_27";
       };
       "OBJ_187" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_32";
+         fileRef = "OBJ_28";
       };
       "OBJ_188" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_33";
+         fileRef = "OBJ_29";
       };
       "OBJ_189" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_34";
+         fileRef = "OBJ_31";
       };
       "OBJ_19" = {
          isa = "PBXFileReference";
@@ -935,49 +970,43 @@
       };
       "OBJ_190" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_35";
+         fileRef = "OBJ_32";
       };
       "OBJ_191" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_36";
+         fileRef = "OBJ_33";
       };
       "OBJ_192" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_37";
+         fileRef = "OBJ_34";
       };
       "OBJ_193" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_38";
+         fileRef = "OBJ_35";
       };
       "OBJ_194" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_39";
+         fileRef = "OBJ_36";
       };
       "OBJ_195" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_40";
+         fileRef = "OBJ_37";
       };
       "OBJ_196" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_41";
+         fileRef = "OBJ_38";
       };
       "OBJ_197" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_42";
+         fileRef = "OBJ_39";
       };
       "OBJ_198" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_199",
-            "OBJ_200",
-            "OBJ_201",
-            "OBJ_202",
-            "OBJ_203"
-         );
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_40";
       };
       "OBJ_199" = {
          isa = "PBXBuildFile";
-         fileRef = "ExtensibleEnumeratedName::ExtensibleEnumeratedName::Product";
+         fileRef = "OBJ_41";
       };
       "OBJ_2" = {
          isa = "XCConfigurationList";
@@ -995,61 +1024,79 @@
       };
       "OBJ_200" = {
          isa = "PBXBuildFile";
-         fileRef = "WolfWith::WolfWith::Product";
+         fileRef = "OBJ_42";
       };
       "OBJ_201" = {
-         isa = "PBXBuildFile";
-         fileRef = "WolfOSBridge::WolfOSBridge::Product";
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_202",
+            "OBJ_203",
+            "OBJ_204",
+            "OBJ_205",
+            "OBJ_206"
+         );
       };
       "OBJ_202" = {
          isa = "PBXBuildFile";
-         fileRef = "WolfPipe::WolfPipe::Product";
+         fileRef = "ExtensibleEnumeratedName::ExtensibleEnumeratedName::Product";
       };
       "OBJ_203" = {
          isa = "PBXBuildFile";
-         fileRef = "WolfNumerics::WolfNumerics::Product";
+         fileRef = "WolfWith::WolfWith::Product";
       };
       "OBJ_204" = {
-         isa = "PBXTargetDependency";
-         target = "ExtensibleEnumeratedName::ExtensibleEnumeratedName";
+         isa = "PBXBuildFile";
+         fileRef = "WolfOSBridge::WolfOSBridge::Product";
       };
       "OBJ_205" = {
-         isa = "PBXTargetDependency";
-         target = "WolfWith::WolfWith";
+         isa = "PBXBuildFile";
+         fileRef = "WolfPipe::WolfPipe::Product";
+      };
+      "OBJ_206" = {
+         isa = "PBXBuildFile";
+         fileRef = "WolfNumerics::WolfNumerics::Product";
       };
       "OBJ_207" = {
          isa = "PBXTargetDependency";
-         target = "WolfOSBridge::WolfOSBridge";
+         target = "ExtensibleEnumeratedName::ExtensibleEnumeratedName";
       };
       "OBJ_208" = {
          isa = "PBXTargetDependency";
-         target = "WolfPipe::WolfPipe";
-      };
-      "OBJ_209" = {
-         isa = "PBXTargetDependency";
-         target = "WolfNumerics::WolfNumerics";
+         target = "WolfWith::WolfWith";
       };
       "OBJ_21" = {
          isa = "PBXFileReference";
          path = "RegularExpressionExtensions.swift";
          sourceTree = "<group>";
       };
+      "OBJ_210" = {
+         isa = "PBXTargetDependency";
+         target = "WolfOSBridge::WolfOSBridge";
+      };
       "OBJ_211" = {
+         isa = "PBXTargetDependency";
+         target = "WolfPipe::WolfPipe";
+      };
+      "OBJ_212" = {
+         isa = "PBXTargetDependency";
+         target = "WolfNumerics::WolfNumerics";
+      };
+      "OBJ_214" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_212",
-            "OBJ_213"
+            "OBJ_215",
+            "OBJ_216"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_212" = {
+      "OBJ_215" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             LD = "/usr/bin/true";
             OTHER_SWIFT_FLAGS = (
                "-swift-version",
-               "4.2",
+               "5",
                "-I",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
                "-target",
@@ -1057,17 +1104,17 @@
                "-sdk",
                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
             );
-            SWIFT_VERSION = "4.2";
+            SWIFT_VERSION = "5.0";
          };
          name = "Debug";
       };
-      "OBJ_213" = {
+      "OBJ_216" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             LD = "/usr/bin/true";
             OTHER_SWIFT_FLAGS = (
                "-swift-version",
-               "4.2",
+               "5",
                "-I",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
                "-target",
@@ -1075,108 +1122,28 @@
                "-sdk",
                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
             );
-            SWIFT_VERSION = "4.2";
+            SWIFT_VERSION = "5.0";
          };
          name = "Release";
       };
-      "OBJ_214" = {
+      "OBJ_217" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_215"
+            "OBJ_218"
          );
       };
-      "OBJ_215" = {
+      "OBJ_218" = {
          isa = "PBXBuildFile";
          fileRef = "OBJ_6";
       };
-      "OBJ_216" = {
+      "OBJ_219" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_217",
-            "OBJ_218"
+            "OBJ_220",
+            "OBJ_221"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_217" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "WolfStrings.xcodeproj/WolfWith_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "WolfWith";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "WolfWith";
-         };
-         name = "Debug";
-      };
-      "OBJ_218" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "WolfStrings.xcodeproj/WolfWith_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "WolfWith";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "WolfWith";
-         };
-         name = "Release";
-      };
-      "OBJ_219" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_220"
-         );
       };
       "OBJ_22" = {
          isa = "PBXFileReference";
@@ -1184,30 +1151,118 @@
          sourceTree = "<group>";
       };
       "OBJ_220" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "WolfStrings.xcodeproj/WolfWith_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "WolfWith";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "WolfWith";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_221" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "WolfStrings.xcodeproj/WolfWith_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "WolfWith";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "WolfWith";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_222" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_223"
+         );
+      };
+      "OBJ_223" = {
          isa = "PBXBuildFile";
          fileRef = "OBJ_51";
       };
-      "OBJ_221" = {
+      "OBJ_224" = {
          isa = "PBXFrameworksBuildPhase";
          files = (
          );
       };
-      "OBJ_223" = {
+      "OBJ_226" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_224",
-            "OBJ_225"
+            "OBJ_227",
+            "OBJ_228"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_224" = {
+      "OBJ_227" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             LD = "/usr/bin/true";
             OTHER_SWIFT_FLAGS = (
                "-swift-version",
-               "4.2",
+               "5",
                "-I",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
                "-target",
@@ -1215,17 +1270,17 @@
                "-sdk",
                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
             );
-            SWIFT_VERSION = "4.2";
+            SWIFT_VERSION = "5.0";
          };
          name = "Debug";
       };
-      "OBJ_225" = {
+      "OBJ_228" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             LD = "/usr/bin/true";
             OTHER_SWIFT_FLAGS = (
                "-swift-version",
-               "4.2",
+               "5",
                "-I",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
                "-target",
@@ -1233,24 +1288,24 @@
                "-sdk",
                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
             );
-            SWIFT_VERSION = "4.2";
+            SWIFT_VERSION = "5.0";
          };
          name = "Release";
       };
-      "OBJ_226" = {
+      "OBJ_229" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_227"
+            "OBJ_230"
          );
-      };
-      "OBJ_227" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_52";
       };
       "OBJ_23" = {
          isa = "PBXFileReference";
          path = "TextCheckingResultExtensions.swift";
          sourceTree = "<group>";
+      };
+      "OBJ_230" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_52";
       };
       "OBJ_24" = {
          isa = "PBXFileReference";
@@ -1293,8 +1348,9 @@
             ENABLE_NS_ASSERTIONS = "YES";
             GCC_OPTIMIZATION_LEVEL = "0";
             GCC_PREPROCESSOR_DEFINITIONS = (
-               "DEBUG=1",
-               "$(inherited)"
+               "$(inherited)",
+               "SWIFT_PACKAGE=1",
+               "DEBUG=1"
             );
             MACOSX_DEPLOYMENT_TARGET = "10.10";
             ONLY_ACTIVE_ARCH = "YES";
@@ -1313,6 +1369,7 @@
                "watchsimulator"
             );
             SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)",
                "SWIFT_PACKAGE",
                "DEBUG"
             );
@@ -1394,6 +1451,10 @@
             DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
             DYLIB_INSTALL_NAME_BASE = "@rpath";
             GCC_OPTIMIZATION_LEVEL = "s";
+            GCC_PREPROCESSOR_DEFINITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE=1"
+            );
             MACOSX_DEPLOYMENT_TARGET = "10.10";
             OTHER_SWIFT_FLAGS = (
                "-DXcode"
@@ -1410,6 +1471,7 @@
                "watchsimulator"
             );
             SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)",
                "SWIFT_PACKAGE"
             );
             SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -1459,7 +1521,7 @@
             "OBJ_46",
             "OBJ_48"
          );
-         name = "ExtensibleEnumeratedName 1.0.4";
+         name = "ExtensibleEnumeratedName 2.0.0";
          path = "";
          sourceTree = "SOURCE_ROOT";
       };
@@ -1469,7 +1531,7 @@
             "OBJ_47"
          );
          name = "ExtensibleEnumeratedName";
-         path = ".build/checkouts/ExtensibleEnumeratedName--2283651822599420577/Sources/ExtensibleEnumeratedName";
+         path = ".build/checkouts/ExtensibleEnumeratedName/Sources/ExtensibleEnumeratedName";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_47" = {
@@ -1481,7 +1543,7 @@
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/ironwolf/Dropbox/DevProjects/WolfStrings/.build/checkouts/ExtensibleEnumeratedName--2283651822599420577/Package.swift";
+         path = "/Users/ironwolf/Dropbox/DevProjects/WolfStrings/.build/checkouts/ExtensibleEnumeratedName/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_49" = {
@@ -1490,7 +1552,7 @@
             "OBJ_50",
             "OBJ_52"
          );
-         name = "WolfWith 1.0.3";
+         name = "WolfWith 2.0.1";
          path = "";
          sourceTree = "SOURCE_ROOT";
       };
@@ -1501,7 +1563,10 @@
             "OBJ_7",
             "OBJ_43",
             "OBJ_44",
-            "OBJ_84"
+            "OBJ_84",
+            "OBJ_91",
+            "OBJ_92",
+            "OBJ_93"
          );
          path = "";
          sourceTree = "<group>";
@@ -1512,7 +1577,7 @@
             "OBJ_51"
          );
          name = "WolfWith";
-         path = ".build/checkouts/WolfWith-7994202808450159364/Sources/WolfWith";
+         path = ".build/checkouts/WolfWith/Sources/WolfWith";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_51" = {
@@ -1524,7 +1589,7 @@
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/ironwolf/Dropbox/DevProjects/WolfStrings/.build/checkouts/WolfWith-7994202808450159364/Package.swift";
+         path = "/Users/ironwolf/Dropbox/DevProjects/WolfStrings/.build/checkouts/WolfWith/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_53" = {
@@ -1533,7 +1598,7 @@
             "OBJ_54",
             "OBJ_56"
          );
-         name = "WolfOSBridge 1.1.1";
+         name = "WolfOSBridge 2.0.0";
          path = "";
          sourceTree = "SOURCE_ROOT";
       };
@@ -1543,7 +1608,7 @@
             "OBJ_55"
          );
          name = "WolfOSBridge";
-         path = ".build/checkouts/WolfOSBridge-642108440266841531/Sources/WolfOSBridge";
+         path = ".build/checkouts/WolfOSBridge/Sources/WolfOSBridge";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_55" = {
@@ -1555,7 +1620,7 @@
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/ironwolf/Dropbox/DevProjects/WolfStrings/.build/checkouts/WolfOSBridge-642108440266841531/Package.swift";
+         path = "/Users/ironwolf/Dropbox/DevProjects/WolfStrings/.build/checkouts/WolfOSBridge/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_57" = {
@@ -1564,7 +1629,7 @@
             "OBJ_58",
             "OBJ_66"
          );
-         name = "WolfPipe 1.1.2";
+         name = "WolfPipe 2.0.0";
          path = "";
          sourceTree = "SOURCE_ROOT";
       };
@@ -1580,7 +1645,7 @@
             "OBJ_65"
          );
          name = "WolfPipe";
-         path = ".build/checkouts/WolfPipe-5604256784633478701/Sources/WolfPipe";
+         path = ".build/checkouts/WolfPipe/Sources/WolfPipe";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_59" = {
@@ -1628,7 +1693,7 @@
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/ironwolf/Dropbox/DevProjects/WolfStrings/.build/checkouts/WolfPipe-5604256784633478701/Package.swift";
+         path = "/Users/ironwolf/Dropbox/DevProjects/WolfStrings/.build/checkouts/WolfPipe/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_67" = {
@@ -1637,7 +1702,7 @@
             "OBJ_68",
             "OBJ_83"
          );
-         name = "WolfNumerics 3.0.2";
+         name = "WolfNumerics 4.0.0";
          path = "";
          sourceTree = "SOURCE_ROOT";
       };
@@ -1660,7 +1725,7 @@
             "OBJ_82"
          );
          name = "WolfNumerics";
-         path = ".build/checkouts/WolfNumerics--6725361061314466694/Sources/WolfNumerics";
+         path = ".build/checkouts/WolfNumerics/Sources/WolfNumerics";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_69" = {
@@ -1766,16 +1831,16 @@
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/ironwolf/Dropbox/DevProjects/WolfStrings/.build/checkouts/WolfNumerics--6725361061314466694/Package.swift";
+         path = "/Users/ironwolf/Dropbox/DevProjects/WolfStrings/.build/checkouts/WolfNumerics/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_84" = {
          isa = "PBXGroup";
          children = (
-            "WolfWith::WolfWith::Product",
             "WolfOSBridge::WolfOSBridge::Product",
             "WolfStrings::WolfStrings::Product",
             "WolfNumerics::WolfNumerics::Product",
+            "WolfWith::WolfWith::Product",
             "ExtensibleEnumeratedName::ExtensibleEnumeratedName::Product",
             "WolfPipe::WolfPipe::Product"
          );
@@ -1797,16 +1862,31 @@
          path = "AttributedStrings";
          sourceTree = "<group>";
       };
+      "OBJ_91" = {
+         isa = "PBXFileReference";
+         path = "LICENSE";
+         sourceTree = "<group>";
+      };
       "OBJ_92" = {
+         isa = "PBXFileReference";
+         path = "README.md";
+         sourceTree = "<group>";
+      };
+      "OBJ_93" = {
+         isa = "PBXFileReference";
+         path = "WolfStrings.podspec";
+         sourceTree = "<group>";
+      };
+      "OBJ_95" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_93",
-            "OBJ_94"
+            "OBJ_96",
+            "OBJ_97"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_93" = {
+      "OBJ_96" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             ENABLE_TESTABILITY = "YES";
@@ -1818,10 +1898,12 @@
                "$(inherited)"
             );
             INFOPLIST_FILE = "WolfStrings.xcodeproj/ExtensibleEnumeratedName_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
             );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
             OTHER_CFLAGS = (
                "$(inherited)"
             );
@@ -1838,12 +1920,14 @@
             SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
                "$(inherited)"
             );
-            SWIFT_VERSION = "4.2";
+            SWIFT_VERSION = "5.0";
             TARGET_NAME = "ExtensibleEnumeratedName";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
          };
          name = "Debug";
       };
-      "OBJ_94" = {
+      "OBJ_97" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             ENABLE_TESTABILITY = "YES";
@@ -1855,10 +1939,12 @@
                "$(inherited)"
             );
             INFOPLIST_FILE = "WolfStrings.xcodeproj/ExtensibleEnumeratedName_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
             );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
             OTHER_CFLAGS = (
                "$(inherited)"
             );
@@ -1875,40 +1961,28 @@
             SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
                "$(inherited)"
             );
-            SWIFT_VERSION = "4.2";
+            SWIFT_VERSION = "5.0";
             TARGET_NAME = "ExtensibleEnumeratedName";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
          };
          name = "Release";
       };
-      "OBJ_95" = {
+      "OBJ_98" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_96"
-         );
-      };
-      "OBJ_96" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_47";
-      };
-      "OBJ_97" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
+            "OBJ_99"
          );
       };
       "OBJ_99" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_100",
-            "OBJ_101"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_47";
       };
       "WolfNumerics::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_125";
+         buildConfigurationList = "OBJ_128";
          buildPhases = (
-            "OBJ_128"
+            "OBJ_131"
          );
          dependencies = (
          );
@@ -1918,10 +1992,10 @@
       };
       "WolfNumerics::WolfNumerics" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_105";
+         buildConfigurationList = "OBJ_108";
          buildPhases = (
-            "OBJ_108",
-            "OBJ_123"
+            "OBJ_111",
+            "OBJ_126"
          );
          dependencies = (
          );
@@ -1937,9 +2011,9 @@
       };
       "WolfOSBridge::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_138";
+         buildConfigurationList = "OBJ_141";
          buildPhases = (
-            "OBJ_141"
+            "OBJ_144"
          );
          dependencies = (
          );
@@ -1949,10 +2023,10 @@
       };
       "WolfOSBridge::WolfOSBridge" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_131";
+         buildConfigurationList = "OBJ_134";
          buildPhases = (
-            "OBJ_134",
-            "OBJ_136"
+            "OBJ_137",
+            "OBJ_139"
          );
          dependencies = (
          );
@@ -1968,9 +2042,9 @@
       };
       "WolfPipe::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_157";
+         buildConfigurationList = "OBJ_160";
          buildPhases = (
-            "OBJ_160"
+            "OBJ_163"
          );
          dependencies = (
          );
@@ -1980,10 +2054,10 @@
       };
       "WolfPipe::WolfPipe" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_144";
+         buildConfigurationList = "OBJ_147";
          buildPhases = (
-            "OBJ_147",
-            "OBJ_155"
+            "OBJ_150",
+            "OBJ_158"
          );
          dependencies = (
          );
@@ -1999,9 +2073,9 @@
       };
       "WolfStrings::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_211";
+         buildConfigurationList = "OBJ_214";
          buildPhases = (
-            "OBJ_214"
+            "OBJ_217"
          );
          dependencies = (
          );
@@ -2011,17 +2085,17 @@
       };
       "WolfStrings::WolfStrings" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_163";
+         buildConfigurationList = "OBJ_166";
          buildPhases = (
-            "OBJ_166",
-            "OBJ_198"
+            "OBJ_169",
+            "OBJ_201"
          );
          dependencies = (
-            "OBJ_204",
-            "OBJ_205",
             "OBJ_207",
             "OBJ_208",
-            "OBJ_209"
+            "OBJ_210",
+            "OBJ_211",
+            "OBJ_212"
          );
          name = "WolfStrings";
          productName = "WolfStrings";
@@ -2035,9 +2109,9 @@
       };
       "WolfWith::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_223";
+         buildConfigurationList = "OBJ_226";
          buildPhases = (
-            "OBJ_226"
+            "OBJ_229"
          );
          dependencies = (
          );
@@ -2047,10 +2121,10 @@
       };
       "WolfWith::WolfWith" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_216";
+         buildConfigurationList = "OBJ_219";
          buildPhases = (
-            "OBJ_219",
-            "OBJ_221"
+            "OBJ_222",
+            "OBJ_224"
          );
          dependencies = (
          );
