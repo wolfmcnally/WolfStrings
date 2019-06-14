@@ -22,6 +22,7 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
+#if !os(Linux)
 import ExtensibleEnumeratedName
 
 public struct FontFamilyName: ExtensibleEnumeratedName {
@@ -34,3 +35,4 @@ public struct FontFamilyName: ExtensibleEnumeratedName {
     // RawRepresentable
     public init?(rawValue: String) { self.init(rawValue) }
 }
+#endif

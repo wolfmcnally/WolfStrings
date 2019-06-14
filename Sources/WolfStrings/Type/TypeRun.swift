@@ -22,6 +22,7 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
+#if canImport(CoreText)
 import CoreText
 import WolfWith
 
@@ -82,3 +83,4 @@ public class TypeRun {
         return imageBounds(in: context, range: glyphIndex ..< (glyphIndex + 1))
     }
 }
+#endif

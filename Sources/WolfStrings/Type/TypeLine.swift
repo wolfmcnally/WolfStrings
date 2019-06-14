@@ -22,6 +22,7 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
+#if canImport(CoreText)
 import CoreText
 
 public class TypeLine {
@@ -59,3 +60,4 @@ extension TypeLine: CustomStringConvertible {
         return "(TypeLine width: \(width), ascent: \(ascent), descent: \(descent), leading \(leading))"
     }
 }
+#endif

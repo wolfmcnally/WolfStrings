@@ -43,6 +43,7 @@ public typealias OSFontDescriptor = UIFontDescriptor
 public typealias OSFontDescriptorSymbolicTraits = UIFontDescriptor.SymbolicTraits
 #endif
 
+#if !os(Linux)
 extension OSFontDescriptorSymbolicTraits {
     public mutating func insertBold() {
         #if os(macOS)
@@ -80,3 +81,4 @@ extension OSFont {
         #endif
     }
 }
+#endif

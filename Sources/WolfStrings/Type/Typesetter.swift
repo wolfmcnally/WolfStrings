@@ -22,6 +22,7 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
+#if canImport(CoreText)
 import CoreText
 
 public struct Typesetter {
@@ -46,3 +47,4 @@ public struct Typesetter {
         return string.stringRange(nsLocation: nsLocation, nsLength: nsLength)!
     }
 }
+#endif

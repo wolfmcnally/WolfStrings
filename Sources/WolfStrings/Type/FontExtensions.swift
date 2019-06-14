@@ -28,7 +28,7 @@ import AppKit
 import UIKit
 #endif
 
-#if os(macOS)
+#if canImport(AppKit)
 extension NSFont {
     public var isBold: Bool {
         return fontDescriptor.symbolicTraits.contains(.bold)
@@ -64,7 +64,7 @@ public func withBold(_ font: NSFont) -> NSFont {
 public func withItalic(_ font: NSFont) -> NSFont {
     return NSFont(descriptor: font.fontDescriptor.withSymbolicTraits([.italic]), size: 0) ?? font
 }
-#else
+#elseif canImport(UIKit)
 extension UIFont {
     public var isBold: Bool {
         return fontDescriptor.symbolicTraits.contains(.traitBold)

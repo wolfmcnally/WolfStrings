@@ -28,6 +28,7 @@
     import UIKit
 #endif
 
+#if !os(Linux)
 public func printFontNames() {
     for family in OSFont.familyNames {
         print("")
@@ -37,3 +38,4 @@ public func printFontNames() {
         }
     }
 }
+#endif
