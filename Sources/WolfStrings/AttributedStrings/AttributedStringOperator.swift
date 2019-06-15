@@ -22,6 +22,7 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
+#if !os(Linux)
 import Foundation
 
 ///
@@ -63,3 +64,4 @@ public postfix func §? (left: NSAttributedString?) -> AttributedString? {
 public func toAttributedString(_ string: String) -> AttributedString {
     return AttributedString(string: string)
 }
+#endif

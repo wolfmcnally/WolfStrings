@@ -22,6 +22,7 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
+#if !os(Linux)
 import Foundation
 
 #if canImport(UIKit)
@@ -107,3 +108,4 @@ public func markdown(_ attrString: AttributedString?) -> AttributedString? {
 
     return attrString
 }
+#endif

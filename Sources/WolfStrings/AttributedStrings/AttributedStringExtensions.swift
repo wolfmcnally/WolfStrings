@@ -22,6 +22,7 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
+#if !os(Linux)
 import Foundation
 
 #if canImport(AppKit)
@@ -272,3 +273,4 @@ public func append(_ rhs: AttributedString?) -> (_ lhs: AttributedString?) -> At
         return lhs
     }
 }
+#endif
