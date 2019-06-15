@@ -26,3 +26,6 @@ Package.resolved
 
 Carthage/Build
 Pods/
+
+.build
+*.xcodeproj

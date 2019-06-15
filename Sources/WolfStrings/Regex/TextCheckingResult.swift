@@ -24,6 +24,4 @@
 
 import Foundation
 
-#if !os(Linux)
-    public typealias TextCheckingResult = NSTextCheckingResult
-#endif
+public typealias TextCheckingResult = NSTextCheckingResult

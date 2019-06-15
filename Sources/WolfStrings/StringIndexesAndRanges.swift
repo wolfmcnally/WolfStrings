@@ -53,11 +53,6 @@ extension String {
         return stringRange(nsLocation: nsRange.location, nsLength: nsRange.length)
     }
 
-    public func stringRange(from cfRange: CFRange?) -> StringRange? {
-        guard let cfRange = cfRange else { return nil }
-        return stringRange(nsLocation: cfRange.location, nsLength: cfRange.length)
-    }
-
     public func nsLocation(fromIndex index: StringIndex) -> Int {
         return nsRange(from: index..<index)!.location
     }
@@ -76,17 +71,24 @@ extension String {
         return NSRange(location: location, length: length)
     }
 
+    #if !os(Linux)
+    public func stringRange(from cfRange: CFRange?) -> StringRange? {
+        guard let cfRange = cfRange else { return nil }
+        return stringRange(nsLocation: cfRange.location, nsLength: cfRange.length)
+    }
+
     public func cfRange(from stringRange: StringRange?) -> CFRange? {
         guard let r = nsRange(from: stringRange) else { return nil }
         return CFRange(nsRange: r)
     }
 
-    public var nsRange: NSRange {
-        return nsRange(from: stringRange)!
-    }
-
     public var cfRange: CFRange {
         return cfRange(from: stringRange)!
+    }
+    #endif
+
+    public var nsRange: NSRange {
+        return nsRange(from: stringRange)!
     }
 
     public var stringRange: StringRange {

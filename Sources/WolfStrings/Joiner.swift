@@ -65,6 +65,7 @@ extension Joiner: CustomStringConvertible {
     }
 }
 
+#if !os(Linux)
 public class AttributedJoiner {
     private typealias `Self` = AttributedJoiner
 
@@ -111,4 +112,4 @@ public class AttributedJoiner {
         return s
     }
 }
-
+#endif
