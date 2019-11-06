@@ -22,7 +22,12 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
-#if canImport(AppKit)
+#if canImport(UIKit)
+import UIKit
+public typealias OSFont = UIFont
+public typealias OSFontDescriptor = UIFontDescriptor
+public typealias OSFontDescriptorSymbolicTraits = UIFontDescriptor.SymbolicTraits
+#elseif canImport(AppKit)
 import AppKit
 public typealias OSFont = NSFont
 public typealias OSFontDescriptor = NSFontDescriptor
@@ -36,11 +41,6 @@ extension NSFont {
         return members.map { $0[0] as! String }
     }
 }
-#elseif canImport(UIKit)
-import UIKit
-public typealias OSFont = UIFont
-public typealias OSFontDescriptor = UIFontDescriptor
-public typealias OSFontDescriptorSymbolicTraits = UIFontDescriptor.SymbolicTraits
 #endif
 
 #if !os(Linux)

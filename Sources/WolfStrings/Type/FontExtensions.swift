@@ -22,49 +22,13 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
-#if canImport(AppKit)
-import AppKit
-#elseif canImport(UIKit)
+#if canImport(UIKit)
 import UIKit
+#elseif canImport(AppKit)
+import AppKit
 #endif
 
-#if canImport(AppKit)
-extension NSFont {
-    public var isBold: Bool {
-        return fontDescriptor.symbolicTraits.contains(.bold)
-    }
-
-    public var isItalic: Bool {
-        return fontDescriptor.symbolicTraits.contains(.italic)
-    }
-
-    public var plainVariant: NSFont {
-        return NSFont(descriptor: fontDescriptor.withSymbolicTraits([]), size: 0)!
-    }
-
-    public var boldVariant: NSFont {
-        return NSFont(descriptor: fontDescriptor.withSymbolicTraits([.bold]), size: 0)!
-    }
-
-    public var italicVariant: NSFont {
-        return NSFont(descriptor: fontDescriptor.withSymbolicTraits([.italic]), size: 0)!
-    }
-}
-
-public func withPointSize(_ pointSize: CGFloat) -> (_ font: NSFont) -> NSFont {
-    return { font in
-        return NSFont(descriptor: font.fontDescriptor, size: pointSize)!
-    }
-}
-
-public func withBold(_ font: NSFont) -> NSFont {
-    return NSFont(descriptor: font.fontDescriptor.withSymbolicTraits([.bold]), size: 0) ?? font
-}
-
-public func withItalic(_ font: NSFont) -> NSFont {
-    return NSFont(descriptor: font.fontDescriptor.withSymbolicTraits([.italic]), size: 0) ?? font
-}
-#elseif canImport(UIKit)
+#if canImport(UIKit)
 extension UIFont {
     public var isBold: Bool {
         return fontDescriptor.symbolicTraits.contains(.traitBold)
@@ -105,5 +69,41 @@ public func withItalic(_ font: UIFont) -> UIFont {
         return font
     }
     return UIFont(descriptor: descriptor, size: 0)
+}
+#elseif canImport(AppKit)
+extension NSFont {
+    public var isBold: Bool {
+        return fontDescriptor.symbolicTraits.contains(.bold)
+    }
+
+    public var isItalic: Bool {
+        return fontDescriptor.symbolicTraits.contains(.italic)
+    }
+
+    public var plainVariant: NSFont {
+        return NSFont(descriptor: fontDescriptor.withSymbolicTraits([]), size: 0)!
+    }
+
+    public var boldVariant: NSFont {
+        return NSFont(descriptor: fontDescriptor.withSymbolicTraits([.bold]), size: 0)!
+    }
+
+    public var italicVariant: NSFont {
+        return NSFont(descriptor: fontDescriptor.withSymbolicTraits([.italic]), size: 0)!
+    }
+}
+
+public func withPointSize(_ pointSize: CGFloat) -> (_ font: NSFont) -> NSFont {
+    return { font in
+        return NSFont(descriptor: font.fontDescriptor, size: pointSize)!
+    }
+}
+
+public func withBold(_ font: NSFont) -> NSFont {
+    return NSFont(descriptor: font.fontDescriptor.withSymbolicTraits([.bold]), size: 0) ?? font
+}
+
+public func withItalic(_ font: NSFont) -> NSFont {
+    return NSFont(descriptor: font.fontDescriptor.withSymbolicTraits([.italic]), size: 0) ?? font
 }
 #endif
