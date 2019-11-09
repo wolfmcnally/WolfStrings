@@ -100,6 +100,12 @@ extension String {
         let indentedLines = lines.joined(separator: newlineIndentation)
         return indentation + indentedLines
     }
+
+    public func removingPrefix(_ prefix: String) -> String? {
+        guard hasPrefix(prefix) else { return nil }
+        let afterPrefix = index(startIndex, offsetBy: prefix.count)
+        return String(self[afterPrefix...])
+    }
 }
 
 // MARK: - Free functions
