@@ -78,6 +78,10 @@ extension String {
         }
         return replacing(replacements: results)
     }
+
+    public func replacing(matchesTo regex: NSRegularExpression, with replacement: String) -> String {
+        replacing(matchesTo: regex, usingBlock: { _ in replacement }).string
+    }
 }
 
 // (?:(?<!\\)#\{(\w+)\})
